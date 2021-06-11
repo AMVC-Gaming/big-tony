@@ -1,0 +1,15 @@
+/Users/mcgonaglew/Desktop/big-tony/bin/Debug/net5.0/big-tony.deps.json
+/Users/mcgonaglew/Desktop/big-tony/bin/Debug/net5.0/big-tony.runtimeconfig.json
+/Users/mcgonaglew/Desktop/big-tony/bin/Debug/net5.0/big-tony.runtimeconfig.dev.json
+/Users/mcgonaglew/Desktop/big-tony/bin/Debug/net5.0/big-tony.dll
+/Users/mcgonaglew/Desktop/big-tony/bin/Debug/net5.0/ref/big-tony.dll
+/Users/mcgonaglew/Desktop/big-tony/bin/Debug/net5.0/big-tony.pdb
+/Users/mcgonaglew/Desktop/big-tony/obj/Debug/net5.0/big-tony.csproj.AssemblyReference.cache
+/Users/mcgonaglew/Desktop/big-tony/obj/Debug/net5.0/big-tony.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mcgonaglew/Desktop/big-tony/obj/Debug/net5.0/big-tony.AssemblyInfoInputs.cache
+/Users/mcgonaglew/Desktop/big-tony/obj/Debug/net5.0/big-tony.AssemblyInfo.cs
+/Users/mcgonaglew/Desktop/big-tony/obj/Debug/net5.0/big-tony.csproj.CoreCompileInputs.cache
+/Users/mcgonaglew/Desktop/big-tony/obj/Debug/net5.0/big-tony.dll
+/Users/mcgonaglew/Desktop/big-tony/obj/Debug/net5.0/ref/big-tony.dll
+/Users/mcgonaglew/Desktop/big-tony/obj/Debug/net5.0/big-tony.pdb
+/Users/mcgonaglew/Desktop/big-tony/obj/Debug/net5.0/big-tony.genruntimeconfig.cache
