@@ -9,5 +9,5 @@ jobs:
     - name: Generate Markdown
       uses: mattnotmitt/doxygen-action@v1
       with:
-          working-directory: 'src/'
+          working-directory: './'
           doxyfile-path: 'docs/'
