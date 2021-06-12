@@ -1,9 +1,8 @@
-﻿using System;
-using System.Net;
-using System.Net.Sockets;
-using System.Text;
+﻿using BigTony.Examples;
+using BigTony.Utility;
+using BigTony.Core;
 
-namespace BigTony
+namespace BigTony.Core
 {
     class Program
     {
