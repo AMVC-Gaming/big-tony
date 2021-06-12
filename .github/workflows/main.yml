@@ -8,6 +8,3 @@ jobs:
     steps:
       - name: Generate Markdown
         uses: mattnotmitt/doxygen-action@v1
-        with:
-          working-directory: "./"
-          doxyfile-path: "./Doxyfile"
