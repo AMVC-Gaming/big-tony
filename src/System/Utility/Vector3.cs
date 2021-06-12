@@ -74,13 +74,27 @@ namespace BigTony.Utility
 
         }
 
+        /// <summary>
+        /// Divide a Vector3 from another. Note, if B has any axis-values equal to 0, a DivideByZeroException will be thrown.
+        /// </summary>
+        /// <param name="a">The Vector in the numberator place.</param>
+        /// <param name="b">The Vector in the denomonator place.</param>
+        /// <returns>The divided Vector.</returns>
         public static Vector3 operator /(Vector3 a, Vector3 b)
         {
+
+            if (b.x == 0 || b.y == 0 || b.z == 0) throw new System.DivideByZeroException();
 
             return new Vector3(a.x / b.x, a.y / b.y, a.z / b.z);
 
         }
 
+        /// <summary>
+        /// Multiply a Vector3 with another.
+        /// </summary>
+        /// <param name="a">The Vector to be Multiplied.</param>
+        /// <param name="b">The Vector multiplying the other.</param>
+        /// <returns>The multiplied Vector.</returns>
         public static Vector3 operator *(Vector3 a, Vector3 b)
         {
 
@@ -88,6 +102,12 @@ namespace BigTony.Utility
 
         }
 
+        /// <summary> 
+        /// Multiply a Vector with a floating-point number.
+        /// </summary>
+        /// <param name="a">The Vector to be Mutliplied.</param>
+        /// <param name="b">The floating-point number multiplying the Vector.</param>
+        /// <returns>The multiplied Vector.</returns>
         public static Vector3 operator *(Vector3 a, float b)
         {
 
@@ -95,8 +115,16 @@ namespace BigTony.Utility
 
         }
 
+        /// <summary>
+        /// Divide a Vector by a floating-point number. Note, if B is equal to zero, a DivideByZeroException will be thrown.
+        /// </summary>
+        /// <param name="a">The Vector in the numerator.</param>
+        /// <param name="b">The floating-point number in the denomonator.</param>
+        /// <returns>A divided Vector.</returns>
         public static Vector3 operator /(Vector3 a, float b)
         {
+
+            if (b == 0) throw new System.DivideByZeroException();
 
             return new Vector3(a.x / b, a.y / b, a.z / b);
 
