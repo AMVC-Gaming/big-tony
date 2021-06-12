@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['fpsgame_12',['FPSGame',['../classBigTony_1_1Examples_1_1FPSGame.html',1,'BigTony::Examples']]]
+  ['game_12',['Game',['../classBigTony_1_1Core_1_1Game.html',1,'BigTony::Core']]],
+  ['getentitycount_13',['GetEntityCount',['../classBigTony_1_1Core_1_1BaseSystem.html#a07fb42bcec14c9821b6aad7cbdd6169f',1,'BigTony::Core::BaseSystem']]]
 ];
