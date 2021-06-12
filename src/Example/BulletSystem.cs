@@ -13,7 +13,7 @@ namespace BigTony.Examples
             foreach (Bullet bullet in entities)
             {
 
-                bullet.position = Vector3.Add(bullet.position, bullet.forward);
+                bullet.position += bullet.forward * 0.4f;
 
             }
 
