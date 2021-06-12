@@ -1,22 +1,51 @@
+using System.Threading;
 using System.Collections.Generic;
 
 namespace BigTony.Core
 {
 
-    public class Game
+    public static class SystemManager
     {
 
-        public virtual void Start()
+        public static List<Thread> threads = new List<Thread>();
+
+        public static void Start()
         {
 
+            foreach (Thread thread in threads)
+            {
 
+                thread.Start();
+
+            }
 
         }
 
-        public virtual void Update()
+        public static void Join()
         {
 
+            foreach (Thread thread in threads)
+            {
 
+                thread.Join();
+
+            }
+
+        }
+
+        public static bool isRunning()
+        {
+
+            bool running = false;
+
+            foreach (Thread thread in threads)
+            {
+
+                running |= thread.IsAlive;
+
+            }
+
+            return running;
 
         }
 

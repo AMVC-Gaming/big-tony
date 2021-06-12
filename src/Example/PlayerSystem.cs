@@ -27,6 +27,8 @@ namespace BigTony.Examples
 
             }
 
+            Console.Log("Tick");
+
         }
 
     }
