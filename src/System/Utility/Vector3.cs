@@ -103,7 +103,7 @@ namespace BigTony.Utility
         }
 
         /// <summary> 
-        /// Multiply a Vector with a floating-point number.
+        /// Multiply a Vector3 with a floating-point number.
         /// </summary>
         /// <param name="a">The Vector to be Mutliplied.</param>
         /// <param name="b">The floating-point number multiplying the Vector.</param>
@@ -116,7 +116,7 @@ namespace BigTony.Utility
         }
 
         /// <summary>
-        /// Divide a Vector by a floating-point number. Note, if B is equal to zero, a DivideByZeroException will be thrown.
+        /// Divide a Vector3 by a floating-point number. Note, if B is equal to zero, a DivideByZeroException will be thrown.
         /// </summary>
         /// <param name="a">The Vector in the numerator.</param>
         /// <param name="b">The floating-point number in the denomonator.</param>
