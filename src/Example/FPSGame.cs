@@ -4,7 +4,7 @@ using System.Threading;
 namespace BigTony.Examples
 {
 
-    public class FPSGame : Game
+    public class FPSGame
     {
 
         static void Main(string[] args)
