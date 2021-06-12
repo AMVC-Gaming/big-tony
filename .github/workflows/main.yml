@@ -6,8 +6,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - name: Generate Markdown
-      uses: mattnotmitt/doxygen-action@v1
-      with:
-          working-directory: './'
-          doxyfile-path: 'docs/'
+      - name: Generate Markdown
+        uses: mattnotmitt/doxygen-action@v1
+        with:
+          working-directory: "./"
+          doxyfile-path: "Doxyfile"

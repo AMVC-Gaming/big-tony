@@ -8,6 +8,10 @@ namespace BigTony.Core
 
         public static List<T> entities = new List<T>();
 
+        /// <summary>
+        /// Adds an entity into the system.
+        /// </summary>
+        /// <param name="entity">The entity to be added into the system.</param>
         public virtual void Register(T entity)
         {
 
@@ -15,6 +19,9 @@ namespace BigTony.Core
 
         }
 
+        /// <summary>
+        /// This is run every frame by the server.
+        /// </summary>
         public virtual void Update()
         {
 
