@@ -40,6 +40,7 @@ namespace BigTony.Examples
             {
 
                 players[i] = new Player();
+                players[i].playerName += " #" + (i + 1);
                 playerSystem.Register(players[i]);
 
             }

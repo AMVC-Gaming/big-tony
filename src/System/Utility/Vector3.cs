@@ -35,6 +35,12 @@ namespace BigTony.Utility
 
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="a"></param>
+        /// <param name="b"></param>
+        /// <returns></returns>
         public static Vector3 Add(Vector3 a, Vector3 b)
         {
 

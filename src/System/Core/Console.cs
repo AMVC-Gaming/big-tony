@@ -41,6 +41,28 @@ namespace BigTony.Core
         }
 
         /// <summary>
+        /// Logs an integer to the console.
+        /// </summary>
+        /// <param name="number">The integer to be logged.</param>
+        public static void Log(int number)
+        {
+
+            System.Console.WriteLine(number);
+
+        }
+
+        /// <summary>
+        /// Logs any object to the console.
+        /// </summary>
+        /// <param name="any">The object to be logged.</param>
+        public static void Log(object any)
+        {
+
+            System.Console.WriteLine(any.ToString());
+
+        }
+
+        /// <summary>
         /// Logs a message to the console.
         /// </summary>
         /// <param name="message">The string message to be logged to the console.</param>
