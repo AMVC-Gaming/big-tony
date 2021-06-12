@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['game_11',['Game',['../classBigTony_1_1Core_1_1Game.html',1,'BigTony::Core']]]
+  ['fpsgame_12',['FPSGame',['../classBigTony_1_1Examples_1_1FPSGame.html',1,'BigTony::Examples']]]
 ];
