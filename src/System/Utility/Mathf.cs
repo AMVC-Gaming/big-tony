@@ -1,4 +1,4 @@
-namespace BigTony
+namespace BigTony.Utility
 {
     public static class Mathf
     {

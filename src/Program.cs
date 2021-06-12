@@ -7,32 +7,32 @@ namespace BigTony
 {
     class Program
     {
-        static void Main(string[] args)
-        {
+        // static void Main(string[] args)
+        // {
 
-            bool serverRunning = true;
+        //     bool serverRunning = true;
 
-            IPEndPoint ipep = new IPEndPoint(IPAddress.Any, 9050);
-            UdpClient newsock = new UdpClient(ipep);
+        //     IPEndPoint ipep = new IPEndPoint(IPAddress.Any, 9050);
+        //     UdpClient newsock = new UdpClient(ipep);
 
-            Console.WriteLine("Waiting for a client...");
+        //     Console.WriteLine("Waiting for a client...");
 
-            IPEndPoint sender = new IPEndPoint(IPAddress.Any, 0);
+        //     IPEndPoint sender = new IPEndPoint(IPAddress.Any, 0);
 
-            while (serverRunning)
-            {
+        //     while (serverRunning)
+        //     {
 
-                byte[] data = newsock.Receive(ref sender);
-                String stringData = Encoding.ASCII.GetString(data, 0, data.Length);
+        //         byte[] data = newsock.Receive(ref sender);
+        //         String stringData = Encoding.ASCII.GetString(data, 0, data.Length);
 
-                if (stringData == "END") serverRunning = false;
+        //         if (stringData == "END") serverRunning = false;
 
-                Console.WriteLine(Encoding.ASCII.GetString(data, 0, data.Length));
-                newsock.Send(data, data.Length, sender);
-            }
+        //         Console.WriteLine(Encoding.ASCII.GetString(data, 0, data.Length));
+        //         newsock.Send(data, data.Length, sender);
+        //     }
 
-            Console.WriteLine("Closing Server...");
+        //     Console.WriteLine("Closing Server...");
 
-        }
+        // }
     }
 }
