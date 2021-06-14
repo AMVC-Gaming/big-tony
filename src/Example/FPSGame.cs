@@ -7,45 +7,45 @@ namespace BigTony.Examples
     public class FPSGame
     {
 
-        static void Main(string[] args)
-        {
+        // static void Main(string[] args)
+        // {
 
-            PlayerSystem playerSystem = new PlayerSystem();
-            PlayerSystem bulletSystem = new PlayerSystem();
+        //     PlayerSystem playerSystem = new PlayerSystem();
+        //     PlayerSystem bulletSystem = new PlayerSystem();
 
-            SystemManager.threads.Add(new Thread(() =>
-            {
+        //     SystemManager.threads.Add(new Thread(() =>
+        //     {
 
-                while (true)
-                {
+        //         while (true)
+        //         {
 
-                    playerSystem.Update();
+        //             playerSystem.Update();
 
-                }
+        //         }
 
-            }));
-            SystemManager.threads.Add(new Thread(() =>
-            {
+        //     }));
+        //     SystemManager.threads.Add(new Thread(() =>
+        //     {
 
-                while (true)
-                {
+        //         while (true)
+        //         {
 
-                    bulletSystem.Update();
+        //             bulletSystem.Update();
 
-                }
+        //         }
 
-            }));
+        //     }));
 
-            SystemManager.Start();
+        //     SystemManager.Start();
 
-            while (SystemManager.isRunning())
-            {
+        //     while (SystemManager.isRunning())
+        //     {
 
-                Console.CalculateFrameRate();
+        //         Console.CalculateFrameRate();
 
-            }
+        //     }
 
-        }
+        // }
 
     }
 
