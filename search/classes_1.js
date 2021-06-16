@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['entity_35',['Entity',['../classBigTony_1_1Core_1_1Entity.html',1,'BigTony::Core']]]
+  ['client_36',['Client',['../classBigTony_1_1Core_1_1Program_1_1Client.html',1,'BigTony::Core::Program']]]
 ];

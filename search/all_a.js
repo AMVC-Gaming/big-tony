@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['vector2_28',['Vector2',['../classBigTony_1_1Utility_1_1Vector2.html',1,'BigTony.Utility.Vector2'],['../classBigTony_1_1Utility_1_1Vector2.html#a16bfcd050e8206d05daeba5aa9bd6f8f',1,'BigTony.Utility.Vector2.Vector2()'],['../classBigTony_1_1Utility_1_1Vector2.html#a3b4d4a40bece7afdfa433849afac488a',1,'BigTony.Utility.Vector2.Vector2(float _x, float _y)']]],
-  ['vector3_29',['Vector3',['../classBigTony_1_1Utility_1_1Vector3.html',1,'BigTony.Utility.Vector3'],['../classBigTony_1_1Utility_1_1Vector3.html#abba6b3ec30c749375e1d1efe9e7cfd05',1,'BigTony.Utility.Vector3.Vector3()'],['../classBigTony_1_1Utility_1_1Vector3.html#a802a0cc46c3933d8bbc3d1d7795d1bc8',1,'BigTony.Utility.Vector3.Vector3(float _x, float _y)'],['../classBigTony_1_1Utility_1_1Vector3.html#a3db81557bf4972714a14c83c222b958f',1,'BigTony.Utility.Vector3.Vector3(float _x, float _y, float _z)']]]
+  ['unregister_27',['Unregister',['../classBigTony_1_1Core_1_1BaseSystem.html#a06b362faec1f0930108f4623159ed822',1,'BigTony::Core::BaseSystem']]],
+  ['update_28',['Update',['../classBigTony_1_1Examples_1_1BulletSystem.html#a3beb7b2d5c039c87179f7d57053ceb1b',1,'BigTony.Examples.BulletSystem.Update()'],['../classBigTony_1_1Examples_1_1PlayerSystem.html#a3f145bb0332029492aec682a036d5cf8',1,'BigTony.Examples.PlayerSystem.Update()'],['../classBigTony_1_1Core_1_1BaseSystem.html#a4bec5a2a0f03e4937818bb19f2bdcbe0',1,'BigTony.Core.BaseSystem.Update()']]]
 ];
