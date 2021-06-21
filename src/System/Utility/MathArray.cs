@@ -45,10 +45,10 @@ namespace BigTony.Utility
         }
 
         /// <summary>
-        /// Get the lowest value of a floating point data set. If the dataset's length is 0, then float.MaxValue will be returned.
+        /// Get the lowest value of a floating-point data set. If the dataset's length is 0, then float.MaxValue will be returned.
         /// </summary>
-        /// <param name="input">A floating point dataset in the form of an array.</param>
-        /// <returns>The lowest value of the floating point data set.</returns>
+        /// <param name="input">A floating-point dataset in the form of an array.</param>
+        /// <returns>The lowest value of the floating-point data set.</returns>
         public static float Min(float[] input)
         {
 
@@ -66,10 +66,10 @@ namespace BigTony.Utility
         }
 
         /// <summary>
-        /// Get the highest value of a floating point data set. If the dataset's length is 0, then float.MinValue will be returned.
+        /// Get the highest value of a floating-point data set. If the dataset's length is 0, then float.MinValue will be returned.
         /// </summary>
-        /// <param name="input">A floating point dataset in the form of an array.</param>
-        /// <returns>The highest value of the floating point data set.</returns>
+        /// <param name="input">A floating-point dataset in the form of an array.</param>
+        /// <returns>The highest value of the floating-point data set.</returns>
         public static float Max(float[] input)
         {
 
@@ -86,6 +86,11 @@ namespace BigTony.Utility
 
         }
 
+        /// <summary>
+        /// Get the absolute value of a set of floating-point data. 
+        /// </summary>
+        /// <param name="input">The floating-point data to get the absolute value of.</param>
+        /// <returns>The absolute value of the floating-point data inputted.</returns>
         public static float[] Abs(float[] input)
         {
 
