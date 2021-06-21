@@ -86,5 +86,21 @@ namespace BigTony.Utility
 
         }
 
+        public static float[] Abs(float[] input)
+        {
+
+            float[] output = new float[input.Length];
+
+            for (int i = 0; i < input.Length; i++)
+            {
+
+                output[i] = (input[i] > 0) ? input[i] : -input[i];
+
+            }
+
+            return output;
+
+        }
+
     }
 }
