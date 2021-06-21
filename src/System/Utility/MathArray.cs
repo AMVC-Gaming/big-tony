@@ -44,5 +44,47 @@ namespace BigTony.Utility
 
         }
 
+        /// <summary>
+        /// Get the lowest value of a floating point data set. If the dataset's length is 0, then float.MaxValue will be returned.
+        /// </summary>
+        /// <param name="input">A floating point dataset in the form of an array.</param>
+        /// <returns>The lowest value of the floating point data set.</returns>
+        public static float Min(float[] input)
+        {
+
+            float output = float.MaxValue;
+
+            for (int i = 0; i < input.Length; i++)
+            {
+
+                if (input[i] < output) output = input[i];
+
+            }
+
+            return output;
+
+        }
+
+        /// <summary>
+        /// Get the highest value of a floating point data set. If the dataset's length is 0, then float.MinValue will be returned.
+        /// </summary>
+        /// <param name="input">A floating point dataset in the form of an array.</param>
+        /// <returns>The highest value of the floating point data set.</returns>
+        public static float Max(float[] input)
+        {
+
+            float output = float.MinValue;
+
+            for (int i = 0; i < input.Length; i++)
+            {
+
+                if (input[i] > output) output = input[i];
+
+            }
+
+            return output;
+
+        }
+
     }
 }
