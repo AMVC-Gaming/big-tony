@@ -15,6 +15,6 @@ A data-driven, authoritative, multiplayer server built in C# that supports perfo
 
 Copyright 2021 AMVC
 
-Permission to use, copy, or modify this software for any purpose without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies and provided that the user make a profit under $25,000 yearly. If the user fails to meet the requirements, they are able to pay AMVC for a Corporate License. To contact AMVC for a Corparate License, please (click here](https://amvc-gaming.github.io/).
+Permission to use or modify this software for any purpose without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies and provided that the user or user's organization make a profit under $25,000 yearly. If the user fails to meet the requirements, they are able to pay AMVC for a Corporate License. To contact AMVC for a Corparate License, please (click here](https://amvc-gaming.github.io/).
 
 THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
