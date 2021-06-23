@@ -8,6 +8,8 @@ jobs:
       - uses: actions/checkout@v1
       - run: mkdir build
       - uses: mattnotmitt/doxygen-action@v1
+        with:
+          doxyfile-path: "Doxygen/Doxyfile"
       - name: Deploy Docs
         uses: peaceiris/actions-gh-pages@v3
         with:
