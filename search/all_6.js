@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['player_19',['Player',['../classBigTony_1_1Examples_1_1Player.html',1,'BigTony::Examples']]],
-  ['playersystem_20',['PlayerSystem',['../classBigTony_1_1Examples_1_1PlayerSystem.html',1,'BigTony::Examples']]],
-  ['pop_21',['Pop',['../classBigTony_1_1Core_1_1BaseSystem.html#ae77a3f874a73124ce113cec174cf01c6',1,'BigTony::Core::BaseSystem']]],
-  ['program_22',['Program',['../classBigTony_1_1Core_1_1Program.html',1,'BigTony::Core']]]
+  ['ip_28',['IP',['../classBigTony_1_1Core_1_1Program_1_1Client.html#a4f623a1a7a44b251e3e1fe206e37f519',1,'BigTony::Core::Program::Client']]],
+  ['isrunning_29',['isRunning',['../classBigTony_1_1Core_1_1SystemManager.html#ac844f9f61cd85be869e99bc575b39bee',1,'BigTony::Core::SystemManager']]]
 ];

@@ -1,5 +1,8 @@
 var searchData=
 [
-  ['shift_24',['Shift',['../classBigTony_1_1Core_1_1BaseSystem.html#a63ae207bce52eba707f80daad71d9315',1,'BigTony::Core::BaseSystem']]],
-  ['slice_25',['Slice',['../classBigTony_1_1Core_1_1BaseSystem.html#aa401dcbb5c40c3437bee61725a80e70f',1,'BigTony.Core.BaseSystem.Slice(int start)'],['../classBigTony_1_1Core_1_1BaseSystem.html#a1c9bae998c3390d4ab1d80fb6a336412',1,'BigTony.Core.BaseSystem.Slice(int start, int end)']]]
+  ['lastframerate_31',['lastFrameRate',['../classBigTony_1_1Core_1_1Console.html#aa8d458fd1f40df1b243dd5ac326a5751',1,'BigTony::Core::Console']]],
+  ['lastsecond_32',['lastSecond',['../classBigTony_1_1Core_1_1Time.html#a880c8f909a69cc207dcd8c1a54a4e3af',1,'BigTony::Core::Time']]],
+  ['lasttick_33',['lastTick',['../classBigTony_1_1Core_1_1Console.html#ac8e75d02ee6d5827404c0206bb816b03',1,'BigTony::Core::Console']]],
+  ['lerp_34',['Lerp',['../classBigTony_1_1Utility_1_1Mathf.html#a1e4092a2a152ba64bac3231f44ca2580',1,'BigTony::Utility::Mathf']]],
+  ['log_35',['Log',['../classBigTony_1_1Core_1_1Console.html#a41f0130e0b38e4c26aee26c10ac08c4b',1,'BigTony.Core.Console.Log()'],['../classBigTony_1_1Core_1_1Console.html#a7b8ef84d097fe73f43234399efdfe695',1,'BigTony.Core.Console.Log(int number)'],['../classBigTony_1_1Core_1_1Console.html#a98edd04987f9634b7587139403f64035',1,'BigTony.Core.Console.Log(object any)'],['../classBigTony_1_1Core_1_1Console.html#a566e1c0000163e977b66613f3ea0ff05',1,'BigTony.Core.Console.Log(string message)']]]
 ];

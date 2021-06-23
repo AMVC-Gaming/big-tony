@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['register_56',['Register',['../classBigTony_1_1Core_1_1BaseSystem.html#aa02d2d162ddfefa1fc33e84ea2012309',1,'BigTony::Core::BaseSystem']]]
+  ['isrunning_129',['isRunning',['../classBigTony_1_1Core_1_1SystemManager.html#ac844f9f61cd85be869e99bc575b39bee',1,'BigTony::Core::SystemManager']]]
 ];
