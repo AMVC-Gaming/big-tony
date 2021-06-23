@@ -524,7 +524,7 @@ EXTRACT_LOCAL_CLASSES  = YES
 # which are defined in the implementation section but not in the interface are
 # included in the documentation. If set to NO, only methods in the interface are
 # included.
-# The default value is: NO.
+# The default value is: NO. 
 
 EXTRACT_LOCAL_METHODS  = NO
 
