@@ -11,6 +11,8 @@ namespace BigTony.Core
     class Program
     {
 
+        // Maybe this will trigger Doxygen?
+
         public class Client
         {
 
