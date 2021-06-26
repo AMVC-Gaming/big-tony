@@ -67,13 +67,7 @@ namespace BigTony.Utility
         /// The Math.abs() function returns the absolute value of a number. That is, it 
         /// returns <i>x</i> if <i>x</i> is positive or zero, and the negation of <i>x</i> if 
         /// <i>x</i> is negative.
-        /// </para> 
-        /// <example>
-        /// <code>
-        /// Mathf.Abs(10.5f); // 10.5f
-        /// Mathf.Abs(-10.5f); // 10.5f
-        /// </code>
-        /// </example>
+        /// </para>
         /// <returns>The absolute value of 'a'.</returns>
         public static float Abs(float a)
         {
