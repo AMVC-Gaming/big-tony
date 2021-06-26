@@ -17,6 +17,9 @@ var annotated_dup =
         [ "Player", "classBigTony_1_1Examples_1_1Player.html", "classBigTony_1_1Examples_1_1Player" ],
         [ "PlayerSystem", "classBigTony_1_1Examples_1_1PlayerSystem.html", "classBigTony_1_1Examples_1_1PlayerSystem" ]
       ] ],
+      [ "Flexibility", "namespaceBigTony_1_1Flexibility.html", [
+        [ "SettingsParser", "classBigTony_1_1Flexibility_1_1SettingsParser.html", "classBigTony_1_1Flexibility_1_1SettingsParser" ]
+      ] ],
       [ "Utility", "namespaceBigTony_1_1Utility.html", [
         [ "MathArray", "classBigTony_1_1Utility_1_1MathArray.html", "classBigTony_1_1Utility_1_1MathArray" ],
         [ "Mathf", "classBigTony_1_1Utility_1_1Mathf.html", "classBigTony_1_1Utility_1_1Mathf" ],

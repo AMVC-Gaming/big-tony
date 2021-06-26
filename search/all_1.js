@@ -11,5 +11,6 @@ var searchData=
   ['bulletsystem_2ecs_9',['BulletSystem.cs',['../BulletSystem_8cs.html',1,'']]],
   ['core_10',['Core',['../namespaceBigTony_1_1Core.html',1,'BigTony']]],
   ['examples_11',['Examples',['../namespaceBigTony_1_1Examples.html',1,'BigTony']]],
-  ['utility_12',['Utility',['../namespaceBigTony_1_1Utility.html',1,'BigTony']]]
+  ['flexibility_12',['Flexibility',['../namespaceBigTony_1_1Flexibility.html',1,'BigTony']]],
+  ['utility_13',['Utility',['../namespaceBigTony_1_1Utility.html',1,'BigTony']]]
 ];
