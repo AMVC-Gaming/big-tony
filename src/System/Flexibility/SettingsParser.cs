@@ -10,6 +10,10 @@ namespace BigTony.Flexibility
 
         public static Dictionary<string, string> settings = new Dictionary<string, string>();
 
+        /// <summary>
+        /// Print all of the current settings in the system. 
+        /// </summary>
+        /// <para>This includes the default settings that have not been set by the user.</para>
         public static void PrintSettings()
         {
 
@@ -22,6 +26,15 @@ namespace BigTony.Flexibility
 
         }
 
+        /// <summary>
+        /// Open and parse a Big Tony settings file.
+        /// </summary>
+        /// <para>This function opens up the file of the specified path and then parses 
+        /// it using the 'ParseString' fuction. This file needs to be formatted using the 
+        /// Settings File Markup. This means that comments start with a hashtag, and only
+        /// lines that contain data on them are parsed. The data needs to be formatted as 
+        /// 'KEY = VALUE'. An example of this would be, 'HTTP_SERVER = NO'.</para>
+        /// <param name="path">The relative or absolute path to the settings file.</param>
         public static void ParseFile(string path)
         {
 
