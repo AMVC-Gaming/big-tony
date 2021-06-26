@@ -1,6 +1,7 @@
 ﻿using BigTony.Examples;
 using BigTony.Utility;
 using BigTony.Core;
+using BigTony.Flexibility;
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
@@ -10,8 +11,6 @@ namespace BigTony.Core
 {
     class Program
     {
-
-        // Maybe this will trigger Doxygen?
 
         public class Client
         {
@@ -33,6 +32,14 @@ namespace BigTony.Core
 
         static void Main(string[] args)
         {
+
+            SettingsParser.ParseString(@"# Testing
+            
+HTTP_SERVER = NO
+UDP_SERVER = YES
+");
+
+            SettingsParser.PrintSettings();
 
             List<Client> clients = new List<Client>();
             bool serverRunning = true;
