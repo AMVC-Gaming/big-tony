@@ -8,6 +8,9 @@ namespace BigTony.Flexibility
     public static class SettingsParser
     {
 
+        /// <summary>
+        /// The Dictionary that stores all of the Big Tony settings for the program during rumtime.
+        /// </summary>
         private static Dictionary<string, string> settings = new Dictionary<string, string>();
 
         /// <summary>
@@ -67,6 +70,10 @@ namespace BigTony.Flexibility
 
         }
 
+        /// <summary>
+        /// This function is run whenever the program starts to setup the settings.
+        /// </summary>
+        /// <param name="args">The list of Command Line Arguments that are given by the user.</param>
         public static void SetParams(string[] args)
         {
 
@@ -91,6 +98,10 @@ namespace BigTony.Flexibility
 
         }
 
+        /// <summary>
+        /// Parse a file's data as a Big Tony config file.
+        /// </summary>
+        /// <param name="data">The string data to be parsed.</param>
         public static void ParseString(string data)
         {
 
