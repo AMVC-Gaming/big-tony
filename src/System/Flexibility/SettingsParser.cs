@@ -8,7 +8,7 @@ namespace BigTony.Flexibility
     public static class SettingsParser
     {
 
-        public static Dictionary<string, string> settings = new Dictionary<string, string>();
+        private static Dictionary<string, string> settings = new Dictionary<string, string>();
 
         public static void SetParam(string label, string value)
         {
