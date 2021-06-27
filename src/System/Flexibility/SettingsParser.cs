@@ -10,6 +10,19 @@ namespace BigTony.Flexibility
 
         public static Dictionary<string, string> settings = new Dictionary<string, string>();
 
+        public static void SetParam(string label, string value)
+        {
+
+            settings[label] = value;
+
+        }
+
+        public static string GetParam(string label)
+        {
+
+            return settings[label];
+
+        }
 
         /// <summary>
         /// Print all of the current settings in the system. 
