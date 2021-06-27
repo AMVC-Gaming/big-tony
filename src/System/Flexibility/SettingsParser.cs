@@ -1,6 +1,7 @@
 using BigTony.Core;
 using System.Collections.Generic;
 using System.IO;
+using BigTony.Utility;
 
 namespace BigTony.Flexibility
 {
@@ -18,33 +19,6 @@ namespace BigTony.Flexibility
             { "HTTP_SERVER", "This option is to create an HTTP Server. Please note that to do this in the API, the option has to be enabled here." }
         };
 
-        public static string InsertLineBreaks(string input, int maxCount, string newLine)
-        {
-
-            string output = "";
-            string[] splitInput = input.Split(" ");
-            int characterCount = 0;
-
-            for (int i = 0; i < splitInput.Length; i++)
-            {
-
-                characterCount += splitInput[i].Length;
-
-                if (characterCount > maxCount)
-                {
-
-                    output += newLine;
-                    characterCount = 0;
-
-                }
-
-                output += splitInput[i] + " ";
-
-            }
-
-            return output;
-
-        }
 
         public static string GenerateConfigFile()
         {
@@ -54,7 +28,7 @@ namespace BigTony.Flexibility
             foreach (var item in settings)
             {
 
-                output += "# " + InsertLineBreaks(settingDescriptions[item.Key], 60, "\n# ") + "\n";
+                output += "# " + String.InsertLineBreaks(settingDescriptions[item.Key], 60, "\n# ") + "\n";
                 output += item.Key + " = " + settings[item.Key] + "\n";
 
             }
