@@ -10,6 +10,7 @@ namespace BigTony.Flexibility
 
         public static Dictionary<string, string> settings = new Dictionary<string, string>();
 
+
         /// <summary>
         /// Print all of the current settings in the system. 
         /// </summary>
@@ -40,6 +41,30 @@ namespace BigTony.Flexibility
 
             string fileData = File.ReadAllText(path);
             ParseString(fileData);
+
+        }
+
+        public static void SetParams(string[] args)
+        {
+
+            for (int i = 0; i < args.Length; i++)
+            {
+
+                // If it doesn't start with a --, then it probably isn't a parameter
+                if (args[i].Trim().StartsWith("--"))
+                {
+
+                    string[] argumentParts = args[i].Trim().Split("=");
+                    if (argumentParts.Length == 2)
+                    {
+
+                        settings[argumentParts[0].Substring(2).Trim()] = argumentParts[1].Trim();
+
+                    }
+
+                }
+
+            }
 
         }
 

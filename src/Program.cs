@@ -36,8 +36,10 @@ namespace BigTony.Core
             SettingsParser.ParseString(@"# Testing
             
 HTTP_SERVER = NO
-UDP_SERVER = YES
+UDP_SERVER = YES 
 ");
+
+            SettingsParser.SetParams(args);
 
             SettingsParser.PrintSettings();
 
