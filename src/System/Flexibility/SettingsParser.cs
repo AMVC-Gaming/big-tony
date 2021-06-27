@@ -10,6 +10,11 @@ namespace BigTony.Flexibility
 
         private static Dictionary<string, string> settings = new Dictionary<string, string>();
 
+        /// <summary>
+        /// Set the value at the specified label. 
+        /// </summary>
+        /// <param name="label">The key or label for the data that needs to be set.</param>
+        /// <param name="value">The value that the data will be set to.</param> 
         public static void SetParam(string label, string value)
         {
 
@@ -17,6 +22,11 @@ namespace BigTony.Flexibility
 
         }
 
+        /// <summary>
+        /// Get the value at a specified label.
+        /// </summary>
+        /// <param name="label">The label to get the data at.</param>
+        /// <returns>The value at the specified label.</returns>
         public static string GetParam(string label)
         {
 
