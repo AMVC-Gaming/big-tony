@@ -11,9 +11,59 @@ namespace BigTony.Flexibility
         /// <summary>
         /// The Dictionary that stores all of the Big Tony settings for the program during rumtime.
         /// </summary>
-        private static Dictionary<string, string> settings = new Dictionary<string, string>();
+        private static Dictionary<string, string> settings = new Dictionary<string, string>() {
+            { "HTTP_SERVER", "No" }
+        };
+        private static Dictionary<string, string> settingDescriptions = new Dictionary<string, string>() {
+            { "HTTP_SERVER", "This option is to create an HTTP Server. Please note that to do this in the API, the option has to be enabled here." }
+        };
 
-        /// <summary>
+        public static string InsertLineBreaks(string input, int maxCount, string newLine)
+        {
+
+            string output = "";
+            string[] splitInput = input.Split(" ");
+            int characterCount = 0;
+
+            for (int i = 0; i < splitInput.Length; i++)
+            {
+
+                characterCount += splitInput[i].Length;
+
+                if (characterCount > maxCount)
+                {
+
+                    output += newLine;
+                    characterCount = 0;
+
+                }
+
+                output += splitInput[i] + " ";
+
+            }
+
+            return output;
+
+        }
+
+        public static string GenerateConfigFile()
+        {
+
+            string output = "";
+
+            foreach (var item in settings)
+            {
+
+                output += "# " + InsertLineBreaks(settingDescriptions[item.Key], 60, "\n# ") + "\n";
+                output += item.Key + " = " + settings[item.Key] + "\n";
+
+            }
+
+            return output;
+
+        }
+
+        /// <summary> 
         /// Set the value at the specified label. 
         /// </summary>
         /// <param name="label">The key or label for the data that needs to be set.</param>

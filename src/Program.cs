@@ -33,6 +33,8 @@ namespace BigTony.Core
         static void Main(string[] args)
         {
 
+            Console.Log(SettingsParser.GenerateConfigFile());
+
             SettingsParser.ParseString(@"# Testing
             
 HTTP_SERVER = NO
