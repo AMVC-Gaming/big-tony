@@ -33,17 +33,9 @@ namespace BigTony.Core
         static void Main(string[] args)
         {
 
-            Console.Log(SettingsParser.GenerateConfigFile());
-
-            SettingsParser.ParseString(@"# Testing
-            
-HTTP_SERVER = NO
-UDP_SERVER = YES 
-");
-
             SettingsParser.SetParams(args);
 
-            SettingsParser.PrintSettings();
+            if (!SettingsParser.GetBoolParam("UDP_SERVER")) return;
 
             List<Client> clients = new List<Client>();
             bool serverRunning = true;

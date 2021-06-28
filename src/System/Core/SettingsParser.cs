@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using BigTony.Utility;
 
-namespace BigTony.Flexibility
+namespace BigTony.Core
 {
 
     public static class SettingsParser
@@ -13,10 +13,10 @@ namespace BigTony.Flexibility
         /// The Dictionary that stores all of the Big Tony settings for the program during rumtime.
         /// </summary>
         private static Dictionary<string, string> settings = new Dictionary<string, string>() {
-            { "HTTP_SERVER", "No" }
+            { "UDP_SERVER", "Yes" }
         };
         private static Dictionary<string, string> settingDescriptions = new Dictionary<string, string>() {
-            { "HTTP_SERVER", "This option is to create an HTTP Server. Please note that to do this in the API, the option has to be enabled here." }
+            { "UDP_SERVER", "This option is to create an UDP Server. Please note that to do this in the API, the option has to be enabled here." }
         };
 
 
@@ -54,10 +54,22 @@ namespace BigTony.Flexibility
         /// </summary>
         /// <param name="label">The label to get the data at.</param>
         /// <returns>The value at the specified label.</returns>
-        public static string GetParam(string label)
+        public static string GetStringParam(string label)
         {
 
             return settings[label];
+
+        }
+
+        /// <summary>
+        /// Get the value at a specified label.
+        /// </summary>
+        /// <param name="label">The label to get the data at.</param>
+        /// <returns>The value at the specified label.</returns>
+        public static bool GetBoolParam(string label)
+        {
+
+            return settings[label].ToUpper().Equals("YES");
 
         }
 
