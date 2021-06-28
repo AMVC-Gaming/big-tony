@@ -1,10 +1,10 @@
 var searchData=
 [
-  ['setparam_67',['SetParam',['../classBigTony_1_1Flexibility_1_1SettingsParser.html#ad6257bd3eef527b3768f1f9c25ee6276',1,'BigTony::Flexibility::SettingsParser']]],
-  ['setparams_68',['SetParams',['../classBigTony_1_1Flexibility_1_1SettingsParser.html#a0f8cdbaf564524406639206f592c56d6',1,'BigTony::Flexibility::SettingsParser']]],
-  ['settingdescriptions_69',['settingDescriptions',['../classBigTony_1_1Flexibility_1_1SettingsParser.html#abc2ca2355279c3665e7560c34f51aed5',1,'BigTony::Flexibility::SettingsParser']]],
-  ['settings_70',['settings',['../classBigTony_1_1Flexibility_1_1SettingsParser.html#a50f6a1575b8958e19e87fee1406a1dc6',1,'BigTony::Flexibility::SettingsParser']]],
-  ['settingsparser_71',['SettingsParser',['../classBigTony_1_1Flexibility_1_1SettingsParser.html',1,'BigTony::Flexibility']]],
+  ['setparam_67',['SetParam',['../classBigTony_1_1Core_1_1SettingsParser.html#a00632db992329f981596dec9796fe01b',1,'BigTony::Core::SettingsParser']]],
+  ['setparams_68',['SetParams',['../classBigTony_1_1Core_1_1SettingsParser.html#ae337f4ae0035475cd787be254a15c085',1,'BigTony::Core::SettingsParser']]],
+  ['settingdescriptions_69',['settingDescriptions',['../classBigTony_1_1Core_1_1SettingsParser.html#a81f6e7af5731647a6b9a57c0234118ea',1,'BigTony::Core::SettingsParser']]],
+  ['settings_70',['settings',['../classBigTony_1_1Core_1_1SettingsParser.html#aace9ae1a8896e3ce2416e06771c4237a',1,'BigTony::Core::SettingsParser']]],
+  ['settingsparser_71',['SettingsParser',['../classBigTony_1_1Core_1_1SettingsParser.html',1,'BigTony::Core']]],
   ['settingsparser_2ecs_72',['SettingsParser.cs',['../SettingsParser_8cs.html',1,'']]],
   ['shift_73',['Shift',['../classBigTony_1_1Core_1_1BaseSystem.html#a63ae207bce52eba707f80daad71d9315',1,'BigTony::Core::BaseSystem']]],
   ['slice_74',['Slice',['../classBigTony_1_1Core_1_1BaseSystem.html#a1c9bae998c3390d4ab1d80fb6a336412',1,'BigTony.Core.BaseSystem.Slice(int start, int end)'],['../classBigTony_1_1Core_1_1BaseSystem.html#aa401dcbb5c40c3437bee61725a80e70f',1,'BigTony.Core.BaseSystem.Slice(int start)']]],

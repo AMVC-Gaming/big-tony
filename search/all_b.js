@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['parsefile_53',['ParseFile',['../classBigTony_1_1Flexibility_1_1SettingsParser.html#ac0ebda800e9bb20dcd906fdbcf0a9738',1,'BigTony::Flexibility::SettingsParser']]],
-  ['parsestring_54',['ParseString',['../classBigTony_1_1Flexibility_1_1SettingsParser.html#ad950f0063c020187f5a09785b1e17c84',1,'BigTony::Flexibility::SettingsParser']]],
+  ['parsefile_53',['ParseFile',['../classBigTony_1_1Core_1_1SettingsParser.html#a487acee3bf7d8afbe6be016fcdb13c9b',1,'BigTony::Core::SettingsParser']]],
+  ['parsestring_54',['ParseString',['../classBigTony_1_1Core_1_1SettingsParser.html#a185c2e763a2abf6b8e9fa5177acca7fe',1,'BigTony::Core::SettingsParser']]],
   ['player_55',['Player',['../classBigTony_1_1Examples_1_1Player.html',1,'BigTony.Examples.Player'],['../classBigTony_1_1Examples_1_1Player.html#a9dae6cc4ac5f71221e7ae5dac5bc1837',1,'BigTony.Examples.Player.Player()'],['../classBigTony_1_1Examples_1_1Player.html#a5053f1d478a54d93b8ef98dbc1f1f72b',1,'BigTony.Examples.Player.Player(string _playerName)']]],
   ['player_2ecs_56',['Player.cs',['../Player_8cs.html',1,'']]],
   ['playername_57',['playerName',['../classBigTony_1_1Examples_1_1Player.html#a567851bceaaf47ad1fd079af35a915fa',1,'BigTony::Examples::Player']]],
@@ -10,7 +10,7 @@ var searchData=
   ['pop_60',['Pop',['../classBigTony_1_1Core_1_1BaseSystem.html#ae77a3f874a73124ce113cec174cf01c6',1,'BigTony::Core::BaseSystem']]],
   ['port_61',['port',['../classBigTony_1_1Core_1_1Program_1_1Client.html#a9604d2276ff7bdce323eaf9f87b7348d',1,'BigTony::Core::Program::Client']]],
   ['position_62',['position',['../classBigTony_1_1Examples_1_1Bullet.html#a766c3aba0d82b7693b785fc5e7460369',1,'BigTony::Examples::Bullet']]],
-  ['printsettings_63',['PrintSettings',['../classBigTony_1_1Flexibility_1_1SettingsParser.html#a8c4145da79639c7dba2b23a8518ea738',1,'BigTony::Flexibility::SettingsParser']]],
+  ['printsettings_63',['PrintSettings',['../classBigTony_1_1Core_1_1SettingsParser.html#aab60d3a4e7fb29e0d699efa0aa1358ee',1,'BigTony::Core::SettingsParser']]],
   ['program_64',['Program',['../classBigTony_1_1Core_1_1Program.html',1,'BigTony::Core']]],
   ['program_2ecs_65',['Program.cs',['../Program_8cs.html',1,'']]]
 ];

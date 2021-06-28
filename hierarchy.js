@@ -19,7 +19,7 @@ var hierarchy =
     [ "BigTony.Utility.Mathf", "classBigTony_1_1Utility_1_1Mathf.html", null ],
     [ "BigTony.Utility.Mathi", "classBigTony_1_1Utility_1_1Mathi.html", null ],
     [ "BigTony.Core.Program", "classBigTony_1_1Core_1_1Program.html", null ],
-    [ "BigTony.Flexibility.SettingsParser", "classBigTony_1_1Flexibility_1_1SettingsParser.html", null ],
+    [ "BigTony.Core.SettingsParser", "classBigTony_1_1Core_1_1SettingsParser.html", null ],
     [ "BigTony.Utility.String", "classBigTony_1_1Utility_1_1String.html", null ],
     [ "BigTony.Core.SystemManager", "classBigTony_1_1Core_1_1SystemManager.html", null ],
     [ "BigTony.Core.Time", "classBigTony_1_1Core_1_1Time.html", null ],

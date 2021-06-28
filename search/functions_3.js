@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['generateconfigfile_148',['GenerateConfigFile',['../classBigTony_1_1Flexibility_1_1SettingsParser.html#a07ba40d01e639a64a3a41a6e8e6bf814',1,'BigTony::Flexibility::SettingsParser']]],
+  ['generateconfigfile_147',['GenerateConfigFile',['../classBigTony_1_1Core_1_1SettingsParser.html#a7700847cf4a4d8f8e6f789264e6efd39',1,'BigTony::Core::SettingsParser']]],
+  ['getboolparam_148',['GetBoolParam',['../classBigTony_1_1Core_1_1SettingsParser.html#a52189e6d1e097ba1d686f34ae83e2043',1,'BigTony::Core::SettingsParser']]],
   ['getentitycount_149',['GetEntityCount',['../classBigTony_1_1Core_1_1BaseSystem.html#a07fb42bcec14c9821b6aad7cbdd6169f',1,'BigTony::Core::BaseSystem']]],
-  ['getparam_150',['GetParam',['../classBigTony_1_1Flexibility_1_1SettingsParser.html#ae5fe92aa898ed4c36eafb3d2b352e12a',1,'BigTony::Flexibility::SettingsParser']]]
+  ['getstringparam_150',['GetStringParam',['../classBigTony_1_1Core_1_1SettingsParser.html#a263f0fd146daeeb3226f548fa0d85248',1,'BigTony::Core::SettingsParser']]]
 ];
