@@ -8,6 +8,11 @@ var hierarchy =
       [ "BigTony.Examples.PlayerSystem", "classBigTony_1_1Examples_1_1PlayerSystem.html", null ]
     ] ],
     [ "BigTony.Core.Program.Client", "classBigTony_1_1Core_1_1Program_1_1Client.html", null ],
+    [ "BigTony.Core.Command", "classBigTony_1_1Core_1_1Command.html", [
+      [ "BigTony.Examples.ConfigCommand", "classBigTony_1_1Examples_1_1ConfigCommand.html", null ],
+      [ "BigTony.Examples.KillCommand", "classBigTony_1_1Examples_1_1KillCommand.html", null ]
+    ] ],
+    [ "BigTony.Core.CommandParser", "classBigTony_1_1Core_1_1CommandParser.html", null ],
     [ "BigTony.Core.Console", "classBigTony_1_1Core_1_1Console.html", null ],
     [ "BigTony.Core.Entity", "classBigTony_1_1Core_1_1Entity.html", [
       [ "BigTony.Examples.Bullet", "classBigTony_1_1Examples_1_1Bullet.html", null ],

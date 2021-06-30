@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['username_193',['username',['../classBigTony_1_1Core_1_1Program_1_1Client.html#a9d4593329552cbe221cd773aa37bf0b6',1,'BigTony::Core::Program::Client']]]
+  ['threads_221',['threads',['../classBigTony_1_1Core_1_1SystemManager.html#af86f17ef50dd0f2816a4857e9a086d09',1,'BigTony::Core::SystemManager']]]
 ];

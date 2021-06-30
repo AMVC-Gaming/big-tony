@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['main_156',['Main',['../classBigTony_1_1Core_1_1Program.html#ab45d80642b49217d68b24072a29bce4b',1,'BigTony::Core::Program']]],
-  ['max_157',['Max',['../classBigTony_1_1Utility_1_1MathArray.html#a2ada9f0b701de868edd9c43e8dcadb3d',1,'BigTony.Utility.MathArray.Max()'],['../classBigTony_1_1Utility_1_1Mathf.html#a57aab123e6d3b99dfa7e8334c9b15eb7',1,'BigTony.Utility.Mathf.Max()'],['../classBigTony_1_1Utility_1_1Mathi.html#a50275b33828742aba11678a5250faa41',1,'BigTony.Utility.Mathi.Max()']]],
-  ['min_158',['Min',['../classBigTony_1_1Utility_1_1MathArray.html#a627cc62791f94a9d2dafa5cbc14bcda4',1,'BigTony.Utility.MathArray.Min()'],['../classBigTony_1_1Utility_1_1Mathf.html#aeb7e6fc57d888717a3df5d30f91718cf',1,'BigTony.Utility.Mathf.Min()'],['../classBigTony_1_1Utility_1_1Mathi.html#ad8f046918e1f9cd239236c487f842bf7',1,'BigTony.Utility.Mathi.Min()']]]
+  ['lerp_179',['Lerp',['../classBigTony_1_1Utility_1_1Mathf.html#a1e4092a2a152ba64bac3231f44ca2580',1,'BigTony::Utility::Mathf']]],
+  ['log_180',['Log',['../classBigTony_1_1Core_1_1Console.html#a41f0130e0b38e4c26aee26c10ac08c4b',1,'BigTony.Core.Console.Log()'],['../classBigTony_1_1Core_1_1Console.html#a7b8ef84d097fe73f43234399efdfe695',1,'BigTony.Core.Console.Log(int number)'],['../classBigTony_1_1Core_1_1Console.html#a98edd04987f9634b7587139403f64035',1,'BigTony.Core.Console.Log(object any)'],['../classBigTony_1_1Core_1_1Console.html#a566e1c0000163e977b66613f3ea0ff05',1,'BigTony.Core.Console.Log(string message)'],['../classBigTony_1_1Core_1_1Console.html#a31135c49c514fa8753e6c205734a5438',1,'BigTony.Core.Console.Log(string message, bool newline)']]]
 ];

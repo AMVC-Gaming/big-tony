@@ -1,8 +1,6 @@
 var searchData=
 [
-  ['setparam_169',['SetParam',['../classBigTony_1_1Core_1_1SettingsParser.html#a00632db992329f981596dec9796fe01b',1,'BigTony::Core::SettingsParser']]],
-  ['setparams_170',['SetParams',['../classBigTony_1_1Core_1_1SettingsParser.html#ae337f4ae0035475cd787be254a15c085',1,'BigTony::Core::SettingsParser']]],
-  ['shift_171',['Shift',['../classBigTony_1_1Core_1_1BaseSystem.html#a63ae207bce52eba707f80daad71d9315',1,'BigTony::Core::BaseSystem']]],
-  ['slice_172',['Slice',['../classBigTony_1_1Core_1_1BaseSystem.html#aa401dcbb5c40c3437bee61725a80e70f',1,'BigTony.Core.BaseSystem.Slice(int start)'],['../classBigTony_1_1Core_1_1BaseSystem.html#a1c9bae998c3390d4ab1d80fb6a336412',1,'BigTony.Core.BaseSystem.Slice(int start, int end)']]],
-  ['start_173',['Start',['../classBigTony_1_1Core_1_1Game.html#ab09ac259ed4e3c522342cfb7be63517e',1,'BigTony.Core.Game.Start()'],['../classBigTony_1_1Core_1_1SystemManager.html#a8acf90e2a9deb0e55083770a8ef36740',1,'BigTony.Core.SystemManager.Start()']]]
+  ['register_193',['Register',['../classBigTony_1_1Core_1_1BaseSystem.html#aa02d2d162ddfefa1fc33e84ea2012309',1,'BigTony::Core::BaseSystem']]],
+  ['run_194',['Run',['../classBigTony_1_1Examples_1_1ConfigCommand.html#a41b91632d02a541d1adab0ea7dce209f',1,'BigTony.Examples.ConfigCommand.Run()'],['../classBigTony_1_1Examples_1_1KillCommand.html#aa9f76c7160fc652533806e1a1d9f44f3',1,'BigTony.Examples.KillCommand.Run()'],['../classBigTony_1_1Core_1_1Command.html#afa360894d4093b01cd5b3117bbf58c58',1,'BigTony.Core.Command.Run()'],['../classBigTony_1_1Core_1_1Command.html#afa9f58c7f254c8da22b10b8e299bc069',1,'BigTony.Core.Command.Run(Span&lt; string &gt; args)']]],
+  ['runcommand_195',['RunCommand',['../classBigTony_1_1Core_1_1CommandParser.html#a78d673d9eb6e21fe9e5137b893c94628',1,'BigTony::Core::CommandParser']]]
 ];

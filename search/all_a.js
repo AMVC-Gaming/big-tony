@@ -1,7 +1,12 @@
 var searchData=
 [
-  ['operator_2a_49',['operator*',['../classBigTony_1_1Utility_1_1Vector2.html#a9ad444b26b3380b6a23278701751ab84',1,'BigTony.Utility.Vector2.operator*(Vector2 a, Vector2 b)'],['../classBigTony_1_1Utility_1_1Vector2.html#a922ff31fc01154ce2ebbad540e837ce7',1,'BigTony.Utility.Vector2.operator*(Vector2 a, float b)'],['../classBigTony_1_1Utility_1_1Vector3.html#a4c683b2423c76b220afabf19a3cc898a',1,'BigTony.Utility.Vector3.operator*(Vector3 a, Vector3 b)'],['../classBigTony_1_1Utility_1_1Vector3.html#a27cda2f2b57c97fe91a51345af3d37bb',1,'BigTony.Utility.Vector3.operator*(Vector3 a, float b)']]],
-  ['operator_2b_50',['operator+',['../classBigTony_1_1Utility_1_1Vector2.html#a3bd7be372e519c4b6dd82e3ef367cb57',1,'BigTony.Utility.Vector2.operator+()'],['../classBigTony_1_1Utility_1_1Vector3.html#a4304a80e4005aaefd3f724934aa53a4c',1,'BigTony.Utility.Vector3.operator+()']]],
-  ['operator_2d_51',['operator-',['../classBigTony_1_1Utility_1_1Vector2.html#a5eb346c9a402b8b3b4658ad9fc54d578',1,'BigTony.Utility.Vector2.operator-()'],['../classBigTony_1_1Utility_1_1Vector3.html#aeb3bc4c6a82b95e0ec4d0a79d599165c',1,'BigTony.Utility.Vector3.operator-()']]],
-  ['operator_2f_52',['operator/',['../classBigTony_1_1Utility_1_1Vector2.html#a32d7f952d019b81d28cc3ebe25bb096c',1,'BigTony.Utility.Vector2.operator/(Vector2 a, Vector2 b)'],['../classBigTony_1_1Utility_1_1Vector2.html#a6501cbc709fbf0714a9118f80a615841',1,'BigTony.Utility.Vector2.operator/(Vector2 a, float b)'],['../classBigTony_1_1Utility_1_1Vector3.html#a73fba4e237ce373dd6fec2c8773c2954',1,'BigTony.Utility.Vector3.operator/(Vector3 a, Vector3 b)'],['../classBigTony_1_1Utility_1_1Vector3.html#a1c51b84eaeff6e4bb0ed6703dea87255',1,'BigTony.Utility.Vector3.operator/(Vector3 a, float b)']]]
+  ['main_51',['Main',['../classBigTony_1_1Core_1_1Program.html#ab45d80642b49217d68b24072a29bce4b',1,'BigTony::Core::Program']]],
+  ['matharray_52',['MathArray',['../classBigTony_1_1Utility_1_1MathArray.html',1,'BigTony::Utility']]],
+  ['matharray_2ecs_53',['MathArray.cs',['../MathArray_8cs.html',1,'']]],
+  ['mathf_54',['Mathf',['../classBigTony_1_1Utility_1_1Mathf.html',1,'BigTony::Utility']]],
+  ['mathf_2ecs_55',['Mathf.cs',['../Mathf_8cs.html',1,'']]],
+  ['mathi_56',['Mathi',['../classBigTony_1_1Utility_1_1Mathi.html',1,'BigTony::Utility']]],
+  ['mathi_2ecs_57',['Mathi.cs',['../Mathi_8cs.html',1,'']]],
+  ['max_58',['Max',['../classBigTony_1_1Utility_1_1MathArray.html#a2ada9f0b701de868edd9c43e8dcadb3d',1,'BigTony.Utility.MathArray.Max()'],['../classBigTony_1_1Utility_1_1Mathf.html#a57aab123e6d3b99dfa7e8334c9b15eb7',1,'BigTony.Utility.Mathf.Max()'],['../classBigTony_1_1Utility_1_1Mathi.html#a50275b33828742aba11678a5250faa41',1,'BigTony.Utility.Mathi.Max()']]],
+  ['min_59',['Min',['../classBigTony_1_1Utility_1_1MathArray.html#a627cc62791f94a9d2dafa5cbc14bcda4',1,'BigTony.Utility.MathArray.Min()'],['../classBigTony_1_1Utility_1_1Mathf.html#aeb7e6fc57d888717a3df5d30f91718cf',1,'BigTony.Utility.Mathf.Min()'],['../classBigTony_1_1Utility_1_1Mathi.html#ad8f046918e1f9cd239236c487f842bf7',1,'BigTony.Utility.Mathi.Min()']]]
 ];

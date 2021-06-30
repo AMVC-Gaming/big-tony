@@ -414,7 +414,7 @@ Static Private Attributes</h2></td></tr>
 <p>This function is run whenever the program starts to setup the settings. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">args</td><td>The list of Command Line Arguments that are given by the user.</td></tr>
+    <tr><td class="paramname">args</td><td>The list of <a class="el" href="classBigTony_1_1Core_1_1Command.html">Command</a> Line Arguments that are given by the user.</td></tr>
   </table>
   </dd>
 </dl>
@@ -442,7 +442,8 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= <span class="keyword">new</span> Dictionary&lt;string, string&gt;() {</div>
-<div class="line">            { <span class="stringliteral">&quot;UDP_SERVER&quot;</span>, <span class="stringliteral">&quot;This option is to create an UDP Server. Please note that to do this in the API, the option has to be enabled here.&quot;</span> }</div>
+<div class="line">            { <span class="stringliteral">&quot;UDP_SERVER&quot;</span>, <span class="stringliteral">&quot;This option is to create an UDP Server. Please note that to do this in the API, the option has to be enabled here.&quot;</span> },</div>
+<div class="line">            { <span class="stringliteral">&quot;CONFIG_COMMAND&quot;</span>, <span class="stringliteral">&quot;If this option is set to &#39;No&#39;, the server will not respond when the user asks for the config file. If set to yes, the entire current config will be sent to the user if requested.&quot;</span> }</div>
 <div class="line">        }</div>
 </div><!-- fragment -->
 </div>
@@ -467,7 +468,8 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= <span class="keyword">new</span> Dictionary&lt;string, string&gt;() {</div>
-<div class="line">            { <span class="stringliteral">&quot;UDP_SERVER&quot;</span>, <span class="stringliteral">&quot;Yes&quot;</span> }</div>
+<div class="line">            { <span class="stringliteral">&quot;UDP_SERVER&quot;</span>, <span class="stringliteral">&quot;Yes&quot;</span> },</div>
+<div class="line">            { <span class="stringliteral">&quot;CONFIG_COMMAND&quot;</span>, <span class="stringliteral">&quot;No&quot;</span> }</div>
 <div class="line">        }</div>
 </div><!-- fragment -->
 <p>The Dictionary that stores all of the Big Tony settings for the program during rumtime. </p>

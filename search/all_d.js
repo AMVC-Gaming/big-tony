@@ -1,18 +1,16 @@
 var searchData=
 [
-  ['setparam_67',['SetParam',['../classBigTony_1_1Core_1_1SettingsParser.html#a00632db992329f981596dec9796fe01b',1,'BigTony::Core::SettingsParser']]],
-  ['setparams_68',['SetParams',['../classBigTony_1_1Core_1_1SettingsParser.html#ae337f4ae0035475cd787be254a15c085',1,'BigTony::Core::SettingsParser']]],
-  ['settingdescriptions_69',['settingDescriptions',['../classBigTony_1_1Core_1_1SettingsParser.html#a81f6e7af5731647a6b9a57c0234118ea',1,'BigTony::Core::SettingsParser']]],
-  ['settings_70',['settings',['../classBigTony_1_1Core_1_1SettingsParser.html#aace9ae1a8896e3ce2416e06771c4237a',1,'BigTony::Core::SettingsParser']]],
-  ['settingsparser_71',['SettingsParser',['../classBigTony_1_1Core_1_1SettingsParser.html',1,'BigTony::Core']]],
-  ['settingsparser_2ecs_72',['SettingsParser.cs',['../SettingsParser_8cs.html',1,'']]],
-  ['shift_73',['Shift',['../classBigTony_1_1Core_1_1BaseSystem.html#a63ae207bce52eba707f80daad71d9315',1,'BigTony::Core::BaseSystem']]],
-  ['slice_74',['Slice',['../classBigTony_1_1Core_1_1BaseSystem.html#a1c9bae998c3390d4ab1d80fb6a336412',1,'BigTony.Core.BaseSystem.Slice(int start, int end)'],['../classBigTony_1_1Core_1_1BaseSystem.html#aa401dcbb5c40c3437bee61725a80e70f',1,'BigTony.Core.BaseSystem.Slice(int start)']]],
-  ['start_75',['Start',['../classBigTony_1_1Core_1_1SystemManager.html#a8acf90e2a9deb0e55083770a8ef36740',1,'BigTony.Core.SystemManager.Start()'],['../classBigTony_1_1Core_1_1Game.html#ab09ac259ed4e3c522342cfb7be63517e',1,'BigTony.Core.Game.Start()']]],
-  ['starttime_76',['startTime',['../classBigTony_1_1Core_1_1Time.html#a9070210f5a9f13ae59714a5c26b1dced',1,'BigTony::Core::Time']]],
-  ['string_77',['String',['../classBigTony_1_1Utility_1_1String.html',1,'BigTony::Utility']]],
-  ['string_2ecs_78',['String.cs',['../String_8cs.html',1,'']]],
-  ['system_2ecs_79',['System.cs',['../System_8cs.html',1,'']]],
-  ['systemmanager_80',['SystemManager',['../classBigTony_1_1Core_1_1SystemManager.html',1,'BigTony::Core']]],
-  ['systemmanager_2ecs_81',['SystemManager.cs',['../SystemManager_8cs.html',1,'']]]
+  ['parsefile_65',['ParseFile',['../classBigTony_1_1Core_1_1SettingsParser.html#a487acee3bf7d8afbe6be016fcdb13c9b',1,'BigTony::Core::SettingsParser']]],
+  ['parsestring_66',['ParseString',['../classBigTony_1_1Core_1_1SettingsParser.html#a185c2e763a2abf6b8e9fa5177acca7fe',1,'BigTony::Core::SettingsParser']]],
+  ['player_67',['Player',['../classBigTony_1_1Examples_1_1Player.html',1,'BigTony.Examples.Player'],['../classBigTony_1_1Examples_1_1Player.html#a9dae6cc4ac5f71221e7ae5dac5bc1837',1,'BigTony.Examples.Player.Player()'],['../classBigTony_1_1Examples_1_1Player.html#a5053f1d478a54d93b8ef98dbc1f1f72b',1,'BigTony.Examples.Player.Player(string _playerName)']]],
+  ['player_2ecs_68',['Player.cs',['../Player_8cs.html',1,'']]],
+  ['playername_69',['playerName',['../classBigTony_1_1Examples_1_1Player.html#a567851bceaaf47ad1fd079af35a915fa',1,'BigTony::Examples::Player']]],
+  ['playersystem_70',['PlayerSystem',['../classBigTony_1_1Examples_1_1PlayerSystem.html',1,'BigTony::Examples']]],
+  ['playersystem_2ecs_71',['PlayerSystem.cs',['../PlayerSystem_8cs.html',1,'']]],
+  ['pop_72',['Pop',['../classBigTony_1_1Core_1_1BaseSystem.html#ae77a3f874a73124ce113cec174cf01c6',1,'BigTony::Core::BaseSystem']]],
+  ['port_73',['port',['../classBigTony_1_1Core_1_1Program_1_1Client.html#a9604d2276ff7bdce323eaf9f87b7348d',1,'BigTony::Core::Program::Client']]],
+  ['position_74',['position',['../classBigTony_1_1Examples_1_1Bullet.html#a766c3aba0d82b7693b785fc5e7460369',1,'BigTony::Examples::Bullet']]],
+  ['printsettings_75',['PrintSettings',['../classBigTony_1_1Core_1_1SettingsParser.html#aab60d3a4e7fb29e0d699efa0aa1358ee',1,'BigTony::Core::SettingsParser']]],
+  ['program_76',['Program',['../classBigTony_1_1Core_1_1Program.html',1,'BigTony::Core']]],
+  ['program_2ecs_77',['Program.cs',['../Program_8cs.html',1,'']]]
 ];

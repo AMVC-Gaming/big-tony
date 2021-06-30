@@ -1,6 +1,8 @@
 var namespaceBigTony_1_1Core =
 [
     [ "Program", "classBigTony_1_1Core_1_1Program.html", "classBigTony_1_1Core_1_1Program" ],
+    [ "Command", "classBigTony_1_1Core_1_1Command.html", "classBigTony_1_1Core_1_1Command" ],
+    [ "CommandParser", "classBigTony_1_1Core_1_1CommandParser.html", "classBigTony_1_1Core_1_1CommandParser" ],
     [ "Console", "classBigTony_1_1Core_1_1Console.html", "classBigTony_1_1Core_1_1Console" ],
     [ "Entity", "classBigTony_1_1Core_1_1Entity.html", null ],
     [ "Game", "classBigTony_1_1Core_1_1Game.html", "classBigTony_1_1Core_1_1Game" ],

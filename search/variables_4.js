@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['playername_186',['playerName',['../classBigTony_1_1Examples_1_1Player.html#a567851bceaaf47ad1fd079af35a915fa',1,'BigTony::Examples::Player']]],
-  ['port_187',['port',['../classBigTony_1_1Core_1_1Program_1_1Client.html#a9604d2276ff7bdce323eaf9f87b7348d',1,'BigTony::Core::Program::Client']]],
-  ['position_188',['position',['../classBigTony_1_1Examples_1_1Bullet.html#a766c3aba0d82b7693b785fc5e7460369',1,'BigTony::Examples::Bullet']]]
+  ['lastframerate_211',['lastFrameRate',['../classBigTony_1_1Core_1_1Console.html#aa8d458fd1f40df1b243dd5ac326a5751',1,'BigTony::Core::Console']]],
+  ['lastsecond_212',['lastSecond',['../classBigTony_1_1Core_1_1Time.html#a880c8f909a69cc207dcd8c1a54a4e3af',1,'BigTony::Core::Time']]],
+  ['lasttick_213',['lastTick',['../classBigTony_1_1Core_1_1Console.html#ac8e75d02ee6d5827404c0206bb816b03',1,'BigTony::Core::Console']]]
 ];

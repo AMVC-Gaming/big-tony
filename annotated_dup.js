@@ -3,6 +3,8 @@ var annotated_dup =
     [ "BigTony", "namespaceBigTony.html", [
       [ "Core", "namespaceBigTony_1_1Core.html", [
         [ "Program", "classBigTony_1_1Core_1_1Program.html", "classBigTony_1_1Core_1_1Program" ],
+        [ "Command", "classBigTony_1_1Core_1_1Command.html", "classBigTony_1_1Core_1_1Command" ],
+        [ "CommandParser", "classBigTony_1_1Core_1_1CommandParser.html", "classBigTony_1_1Core_1_1CommandParser" ],
         [ "Console", "classBigTony_1_1Core_1_1Console.html", "classBigTony_1_1Core_1_1Console" ],
         [ "Entity", "classBigTony_1_1Core_1_1Entity.html", null ],
         [ "Game", "classBigTony_1_1Core_1_1Game.html", "classBigTony_1_1Core_1_1Game" ],
@@ -12,6 +14,8 @@ var annotated_dup =
         [ "Time", "classBigTony_1_1Core_1_1Time.html", "classBigTony_1_1Core_1_1Time" ]
       ] ],
       [ "Examples", "namespaceBigTony_1_1Examples.html", [
+        [ "ConfigCommand", "classBigTony_1_1Examples_1_1ConfigCommand.html", "classBigTony_1_1Examples_1_1ConfigCommand" ],
+        [ "KillCommand", "classBigTony_1_1Examples_1_1KillCommand.html", "classBigTony_1_1Examples_1_1KillCommand" ],
         [ "Bullet", "classBigTony_1_1Examples_1_1Bullet.html", "classBigTony_1_1Examples_1_1Bullet" ],
         [ "BulletSystem", "classBigTony_1_1Examples_1_1BulletSystem.html", "classBigTony_1_1Examples_1_1BulletSystem" ],
         [ "FPSGame", "namespaceBigTony_1_1Examples.html#classBigTony_1_1Examples_1_1FPSGame", null ],
