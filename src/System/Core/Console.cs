@@ -73,6 +73,21 @@ namespace BigTony.Core
 
         }
 
+        /// <summary>
+        /// logs a message to the console with the option of a newline.
+        /// </summary>
+        /// <param name="message">The string message to be logged to the console.</param>
+        /// <param name="newline">Should a newline be created afterwards?</param>
+        public static void Log(string message, bool newline)
+        {
+
+            if (newline)
+                System.Console.WriteLine(message);
+            else
+                System.Console.Write(message);
+
+        }
+
     }
 
 }

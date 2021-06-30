@@ -1,7 +1,7 @@
 ﻿using BigTony.Examples;
 using BigTony.Utility;
 using BigTony.Core;
-using BigTony.Flexibility;
+using System;
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
@@ -11,6 +11,8 @@ namespace BigTony.Core
 {
     class Program
     {
+
+        private static bool serverRunning = true;
 
         public class Client
         {
@@ -30,15 +32,27 @@ namespace BigTony.Core
 
         }
 
+        /// <summary>
+        /// A function to close the server.
+        /// </summary>
+        public static void Close()
+        {
+
+            serverRunning = false;
+
+        }
+
         static void Main(string[] args)
         {
 
+            // Server Setup
+            CommandParser.FindCommands();
             SettingsParser.SetParams(args);
 
+            // Check if the Developer Wants a UDP Server
             if (!SettingsParser.GetBoolParam("UDP_SERVER")) return;
 
             List<Client> clients = new List<Client>();
-            bool serverRunning = true;
 
             IPEndPoint ipep = new IPEndPoint(IPAddress.Any, 9050);
             UdpClient newsock = new UdpClient(ipep);
@@ -73,22 +87,39 @@ namespace BigTony.Core
 
                     case 0x02:
 
-                        List<byte> res = new List<byte>();
+                        StringBuilder res = new StringBuilder();
 
                         foreach (Client client in clients)
                         {
 
-
-                            res.AddRange(Encoding.ASCII.GetBytes(client.IP));
-                            res.Add(0x0A);
-                            res.AddRange(Encoding.ASCII.GetBytes(client.port.ToString()));
-                            res.Add(0x0A);
-                            res.AddRange(Encoding.ASCII.GetBytes(client.username));
-                            res.Add(0x0C);
+                            res.Append(client.IP);
+                            res.Append("\u000A");
+                            res.Append(client.port.ToString());
+                            res.Append("\u000A");
+                            res.Append(client.username);
+                            res.Append("\u000C");
 
                         }
 
-                        newsock.Send(res.ToArray(), res.Count, sender);
+                        newsock.Send(Encoding.ASCII.GetBytes(res.ToString()), res.Length, sender);
+                        break;
+
+                    case 0x03:
+
+                        // Get Console Command and Parse It
+                        char[] charInputCommand = new char[req.Length - 1];
+                        Encoding.ASCII.GetChars(req, 1, req.Length - 1, charInputCommand, 0);
+
+                        string inputCommand = new string(charInputCommand);
+                        string[] inputCommandSegments = inputCommand.Split("\n");
+
+                        // If the Command is Null, Return Nothing
+                        if (inputCommandSegments[0].Length == 0) break;
+
+                        // Send back command output
+                        byte[] commandOutput = CommandParser.RunCommand(inputCommandSegments[0], inputCommandSegments.AsSpan().Slice(1));
+                        newsock.Send(commandOutput, commandOutput.Length, sender);
+
                         break;
 
                 }

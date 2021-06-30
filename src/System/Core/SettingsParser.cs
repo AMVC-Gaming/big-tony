@@ -13,12 +13,13 @@ namespace BigTony.Core
         /// The Dictionary that stores all of the Big Tony settings for the program during rumtime.
         /// </summary>
         private static Dictionary<string, string> settings = new Dictionary<string, string>() {
-            { "UDP_SERVER", "Yes" }
+            { "UDP_SERVER", "Yes" },
+            { "CONFIG_COMMAND", "No" }
         };
         private static Dictionary<string, string> settingDescriptions = new Dictionary<string, string>() {
-            { "UDP_SERVER", "This option is to create an UDP Server. Please note that to do this in the API, the option has to be enabled here." }
+            { "UDP_SERVER", "This option is to create an UDP Server. Please note that to do this in the API, the option has to be enabled here." },
+            { "CONFIG_COMMAND", "If this option is set to 'No', the server will not respond when the user asks for the config file. If set to yes, the entire current config will be sent to the user if requested." }
         };
-
 
         public static string GenerateConfigFile()
         {
