@@ -17,7 +17,7 @@ namespace BigTony.Examples
                 float y = entities[i].position.y + entities[i].forward.y;
                 float z = entities[i].position.z + entities[i].forward.z;
 
-                entities[i] = new Bullet { position = new Vector3(x, y, z), forward = entities[i].forward };
+                entities[i] = new Bullet { position = new Vector3(x, y, z), forward = (entities[i].forward / 2) };
 
             }
 
