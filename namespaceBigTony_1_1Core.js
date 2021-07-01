@@ -4,7 +4,6 @@ var namespaceBigTony_1_1Core =
     [ "Command", "classBigTony_1_1Core_1_1Command.html", "classBigTony_1_1Core_1_1Command" ],
     [ "CommandParser", "classBigTony_1_1Core_1_1CommandParser.html", "classBigTony_1_1Core_1_1CommandParser" ],
     [ "Console", "classBigTony_1_1Core_1_1Console.html", "classBigTony_1_1Core_1_1Console" ],
-    [ "Entity", "classBigTony_1_1Core_1_1Entity.html", null ],
     [ "Game", "classBigTony_1_1Core_1_1Game.html", "classBigTony_1_1Core_1_1Game" ],
     [ "SettingsParser", "classBigTony_1_1Core_1_1SettingsParser.html", "classBigTony_1_1Core_1_1SettingsParser" ],
     [ "BaseSystem", "classBigTony_1_1Core_1_1BaseSystem.html", "classBigTony_1_1Core_1_1BaseSystem" ],

@@ -7,6 +7,7 @@ var hierarchy =
     [ "BigTony.Core.BaseSystem< Player >", "classBigTony_1_1Core_1_1BaseSystem.html", [
       [ "BigTony.Examples.PlayerSystem", "classBigTony_1_1Examples_1_1PlayerSystem.html", null ]
     ] ],
+    [ "BigTony.Examples.Bullet", "namespaceBigTony_1_1Examples.html#structBigTony_1_1Examples_1_1Bullet", null ],
     [ "BigTony.Core.Program.Client", "classBigTony_1_1Core_1_1Program_1_1Client.html", null ],
     [ "BigTony.Core.Command", "classBigTony_1_1Core_1_1Command.html", [
       [ "BigTony.Examples.ConfigCommand", "classBigTony_1_1Examples_1_1ConfigCommand.html", null ],
@@ -14,15 +15,12 @@ var hierarchy =
     ] ],
     [ "BigTony.Core.CommandParser", "classBigTony_1_1Core_1_1CommandParser.html", null ],
     [ "BigTony.Core.Console", "classBigTony_1_1Core_1_1Console.html", null ],
-    [ "BigTony.Core.Entity", "classBigTony_1_1Core_1_1Entity.html", [
-      [ "BigTony.Examples.Bullet", "classBigTony_1_1Examples_1_1Bullet.html", null ],
-      [ "BigTony.Examples.Player", "classBigTony_1_1Examples_1_1Player.html", null ]
-    ] ],
     [ "BigTony.Examples.FPSGame", "namespaceBigTony_1_1Examples.html#classBigTony_1_1Examples_1_1FPSGame", null ],
     [ "BigTony.Core.Game", "classBigTony_1_1Core_1_1Game.html", null ],
     [ "BigTony.Utility.MathArray", "classBigTony_1_1Utility_1_1MathArray.html", null ],
     [ "BigTony.Utility.Mathf", "classBigTony_1_1Utility_1_1Mathf.html", null ],
     [ "BigTony.Utility.Mathi", "classBigTony_1_1Utility_1_1Mathi.html", null ],
+    [ "BigTony.Examples.Player", "namespaceBigTony_1_1Examples.html#structBigTony_1_1Examples_1_1Player", null ],
     [ "BigTony.Core.Program", "classBigTony_1_1Core_1_1Program.html", null ],
     [ "BigTony.Core.SettingsParser", "classBigTony_1_1Core_1_1SettingsParser.html", null ],
     [ "BigTony.Utility.String", "classBigTony_1_1Utility_1_1String.html", null ],

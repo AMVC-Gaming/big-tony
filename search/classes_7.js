@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['player_129',['Player',['../classBigTony_1_1Examples_1_1Player.html',1,'BigTony::Examples']]],
-  ['playersystem_130',['PlayerSystem',['../classBigTony_1_1Examples_1_1PlayerSystem.html',1,'BigTony::Examples']]],
-  ['program_131',['Program',['../classBigTony_1_1Core_1_1Program.html',1,'BigTony::Core']]]
+  ['settingsparser_132',['SettingsParser',['../classBigTony_1_1Core_1_1SettingsParser.html',1,'BigTony::Core']]],
+  ['string_133',['String',['../classBigTony_1_1Utility_1_1String.html',1,'BigTony::Utility']]],
+  ['systemmanager_134',['SystemManager',['../classBigTony_1_1Core_1_1SystemManager.html',1,'BigTony::Core']]]
 ];

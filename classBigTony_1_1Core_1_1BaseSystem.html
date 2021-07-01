@@ -144,9 +144,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a07fb42bcec14c9821b6aad7cbdd6169f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBigTony_1_1Core_1_1BaseSystem.html#a07fb42bcec14c9821b6aad7cbdd6169f">GetEntityCount</a> ()</td></tr>
 <tr class="memdesc:a07fb42bcec14c9821b6aad7cbdd6169f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of entities currently in the system.  <a href="classBigTony_1_1Core_1_1BaseSystem.html#a07fb42bcec14c9821b6aad7cbdd6169f">More...</a><br /></td></tr>
 <tr class="separator:a07fb42bcec14c9821b6aad7cbdd6169f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4bec5a2a0f03e4937818bb19f2bdcbe0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBigTony_1_1Core_1_1BaseSystem.html#a4bec5a2a0f03e4937818bb19f2bdcbe0">Update</a> ()</td></tr>
-<tr class="memdesc:a4bec5a2a0f03e4937818bb19f2bdcbe0"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is run every frame by the server.  <a href="classBigTony_1_1Core_1_1BaseSystem.html#a4bec5a2a0f03e4937818bb19f2bdcbe0">More...</a><br /></td></tr>
-<tr class="separator:a4bec5a2a0f03e4937818bb19f2bdcbe0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d59f7ba73c95cbfafc4acfa63ade5ee"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBigTony_1_1Core_1_1BaseSystem.html#a7d59f7ba73c95cbfafc4acfa63ade5ee">OnRegister</a> ()</td></tr>
+<tr class="separator:a7d59f7ba73c95cbfafc4acfa63ade5ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62769e165e0b81e5229f206e1690cca7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBigTony_1_1Core_1_1BaseSystem.html#a62769e165e0b81e5229f206e1690cca7">OnUnregister</a> ()</td></tr>
+<tr class="separator:a62769e165e0b81e5229f206e1690cca7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29dc3ec26459535f938b97cac4cf16e0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBigTony_1_1Core_1_1BaseSystem.html#a29dc3ec26459535f938b97cac4cf16e0">OnUpdate</a> ()</td></tr>
+<tr class="memdesc:a29dc3ec26459535f938b97cac4cf16e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is run every frame by the server.  <a href="classBigTony_1_1Core_1_1BaseSystem.html#a29dc3ec26459535f938b97cac4cf16e0">More...</a><br /></td></tr>
+<tr class="separator:a29dc3ec26459535f938b97cac4cf16e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -207,6 +211,85 @@ Static Public Attributes</h2></td></tr>
 
 <p>Get the number of entities currently in the system. </p>
 <dl class="section return"><dt>Returns</dt><dd>The integer representation of the number of entities in the system.</dd></dl>
+
+</div>
+</div>
+<a id="a7d59f7ba73c95cbfafc4acfa63ade5ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d59f7ba73c95cbfafc4acfa63ade5ee">&#9670;&nbsp;</a></span>OnRegister()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void <a class="el" href="classBigTony_1_1Core_1_1BaseSystem.html">BigTony.Core.BaseSystem</a>&lt; T &gt;.OnRegister </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a62769e165e0b81e5229f206e1690cca7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62769e165e0b81e5229f206e1690cca7">&#9670;&nbsp;</a></span>OnUnregister()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void <a class="el" href="classBigTony_1_1Core_1_1BaseSystem.html">BigTony.Core.BaseSystem</a>&lt; T &gt;.OnUnregister </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a29dc3ec26459535f938b97cac4cf16e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29dc3ec26459535f938b97cac4cf16e0">&#9670;&nbsp;</a></span>OnUpdate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void <a class="el" href="classBigTony_1_1Core_1_1BaseSystem.html">BigTony.Core.BaseSystem</a>&lt; T &gt;.OnUpdate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This is run every frame by the server. </p>
+
+<p>Reimplemented in <a class="el" href="classBigTony_1_1Examples_1_1PlayerSystem.html#a0ba6db82272f63b0ea962d016643d445">BigTony.Examples.PlayerSystem</a>, and <a class="el" href="classBigTony_1_1Examples_1_1BulletSystem.html#aae1636d886230f485d40725ccee41d54">BigTony.Examples.BulletSystem</a>.</p>
 
 </div>
 </div>
@@ -440,35 +523,6 @@ Static Public Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a id="a4bec5a2a0f03e4937818bb19f2bdcbe0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4bec5a2a0f03e4937818bb19f2bdcbe0">&#9670;&nbsp;</a></span>Update()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void <a class="el" href="classBigTony_1_1Core_1_1BaseSystem.html">BigTony.Core.BaseSystem</a>&lt; T &gt;.Update </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>This is run every frame by the server. </p>
-
-<p>Reimplemented in <a class="el" href="classBigTony_1_1Examples_1_1PlayerSystem.html#a3f145bb0332029492aec682a036d5cf8">BigTony.Examples.PlayerSystem</a>, and <a class="el" href="classBigTony_1_1Examples_1_1BulletSystem.html#a3beb7b2d5c039c87179f7d57053ceb1b">BigTony.Examples.BulletSystem</a>.</p>
 
 </div>
 </div>
