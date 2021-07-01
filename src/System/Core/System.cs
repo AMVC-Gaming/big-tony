@@ -114,6 +114,9 @@ namespace BigTony.Core
 
         }
 
+        /// <summary>
+        /// This is run when a new entity is created.
+        /// </summary>
         public virtual void OnRegister()
         {
 
@@ -121,6 +124,9 @@ namespace BigTony.Core
 
         }
 
+        /// <summary>
+        /// This is run when a new entity is created.
+        /// </summary>
         public virtual void OnUnregister()
         {
 
