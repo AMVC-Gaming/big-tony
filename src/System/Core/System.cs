@@ -3,7 +3,7 @@ using System.Collections.Generic;
 namespace BigTony.Core
 {
 
-    public class BaseSystem<T> where T : Entity
+    public class BaseSystem<T> where T : struct
     {
 
         public static List<T> entities = new List<T>();
@@ -114,10 +114,24 @@ namespace BigTony.Core
 
         }
 
+        public virtual void OnRegister()
+        {
+
+
+
+        }
+
+        public virtual void OnUnregister()
+        {
+
+
+
+        }
+
         /// <summary>
         /// This is run every frame by the server.
         /// </summary>
-        public virtual void Update()
+        public virtual void OnUpdate()
         {
 
             foreach (T entity in entities)

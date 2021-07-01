@@ -6,28 +6,27 @@ namespace BigTony.Examples
     public class PlayerSystem : BaseSystem<Player>
     {
 
-        public override void Update()
+        public override void OnUpdate()
         {
 
-            foreach (Player player in entities)
+            for (int i = 0; i < entities.Count; i++)
             {
 
-                if (player.playerName == player.playerName.ToUpper())
+                if (entities[i].playerName.StartsWith("S"))
                 {
 
-                    player.playerName = player.playerName.ToLower();
+                    entities[i] = new Player { playerName = entities[i].playerName.ToLower() };
 
                 }
                 else
                 {
 
-                    player.playerName = player.playerName.ToUpper();
+                    entities[i] = new Player { playerName = entities[i].playerName.ToUpper() };
 
                 }
 
-            }
 
-            Console.Log("Tick");
+            }
 
         }
 
