@@ -1,8 +1,5 @@
 var searchData=
 [
-  ['threads_94',['threads',['../classBigTony_1_1Core_1_1SystemManager.html#af86f17ef50dd0f2816a4857e9a086d09',1,'BigTony::Core::SystemManager']]],
-  ['time_95',['Time',['../classBigTony_1_1Core_1_1Time.html',1,'BigTony::Core']]],
-  ['time_96',['time',['../classBigTony_1_1Core_1_1Time.html#ac5736bd09e5153c217c9c9c6b16122c4',1,'BigTony::Core::Time']]],
-  ['time_2ecs_97',['Time.cs',['../Time_8cs.html',1,'']]],
-  ['top_98',['Top',['../classBigTony_1_1Core_1_1BaseSystem.html#ad26a31c813383b0bd8828f80569ea85e',1,'BigTony::Core::BaseSystem']]]
+  ['unregister_99',['Unregister',['../classBigTony_1_1Core_1_1BaseSystem.html#a06b362faec1f0930108f4623159ed822',1,'BigTony::Core::BaseSystem']]],
+  ['username_100',['username',['../classBigTony_1_1Core_1_1Program_1_1Client.html#a9d4593329552cbe221cd773aa37bf0b6',1,'BigTony::Core::Program::Client']]]
 ];

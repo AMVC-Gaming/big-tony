@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['parsefile_181',['ParseFile',['../classBigTony_1_1Core_1_1SettingsParser.html#a487acee3bf7d8afbe6be016fcdb13c9b',1,'BigTony::Core::SettingsParser']]],
-  ['parsestring_182',['ParseString',['../classBigTony_1_1Core_1_1SettingsParser.html#a185c2e763a2abf6b8e9fa5177acca7fe',1,'BigTony::Core::SettingsParser']]],
-  ['pop_183',['Pop',['../classBigTony_1_1Core_1_1BaseSystem.html#ae77a3f874a73124ce113cec174cf01c6',1,'BigTony::Core::BaseSystem']]],
-  ['printsettings_184',['PrintSettings',['../classBigTony_1_1Core_1_1SettingsParser.html#aab60d3a4e7fb29e0d699efa0aa1358ee',1,'BigTony::Core::SettingsParser']]]
+  ['register_186',['Register',['../classBigTony_1_1Core_1_1BaseSystem.html#aa02d2d162ddfefa1fc33e84ea2012309',1,'BigTony::Core::BaseSystem']]],
+  ['run_187',['Run',['../classBigTony_1_1Examples_1_1ConfigCommand.html#a41b91632d02a541d1adab0ea7dce209f',1,'BigTony.Examples.ConfigCommand.Run()'],['../classBigTony_1_1Examples_1_1KillCommand.html#aa9f76c7160fc652533806e1a1d9f44f3',1,'BigTony.Examples.KillCommand.Run()'],['../classBigTony_1_1Core_1_1Command.html#afa360894d4093b01cd5b3117bbf58c58',1,'BigTony.Core.Command.Run()'],['../classBigTony_1_1Core_1_1Command.html#afa9f58c7f254c8da22b10b8e299bc069',1,'BigTony.Core.Command.Run(Span&lt; string &gt; args)']]],
+  ['runcommand_188',['RunCommand',['../classBigTony_1_1Core_1_1CommandParser.html#a78d673d9eb6e21fe9e5137b893c94628',1,'BigTony::Core::CommandParser']]]
 ];

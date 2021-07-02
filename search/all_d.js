@@ -1,16 +1,6 @@
 var searchData=
 [
-  ['parsefile_62',['ParseFile',['../classBigTony_1_1Core_1_1SettingsParser.html#a487acee3bf7d8afbe6be016fcdb13c9b',1,'BigTony::Core::SettingsParser']]],
-  ['parsestring_63',['ParseString',['../classBigTony_1_1Core_1_1SettingsParser.html#a185c2e763a2abf6b8e9fa5177acca7fe',1,'BigTony::Core::SettingsParser']]],
-  ['player_64',['Player',['../namespaceBigTony_1_1Examples.html#structBigTony_1_1Examples_1_1Player',1,'BigTony::Examples']]],
-  ['player_2ecs_65',['Player.cs',['../Player_8cs.html',1,'']]],
-  ['playername_66',['playerName',['../namespaceBigTony_1_1Examples.html#a567851bceaaf47ad1fd079af35a915fa',1,'BigTony::Examples::Player']]],
-  ['playersystem_67',['PlayerSystem',['../classBigTony_1_1Examples_1_1PlayerSystem.html',1,'BigTony::Examples']]],
-  ['playersystem_2ecs_68',['PlayerSystem.cs',['../PlayerSystem_8cs.html',1,'']]],
-  ['pop_69',['Pop',['../classBigTony_1_1Core_1_1BaseSystem.html#ae77a3f874a73124ce113cec174cf01c6',1,'BigTony::Core::BaseSystem']]],
-  ['port_70',['port',['../classBigTony_1_1Core_1_1Program_1_1Client.html#a9604d2276ff7bdce323eaf9f87b7348d',1,'BigTony::Core::Program::Client']]],
-  ['position_71',['position',['../namespaceBigTony_1_1Examples.html#a766c3aba0d82b7693b785fc5e7460369',1,'BigTony::Examples::Bullet']]],
-  ['printsettings_72',['PrintSettings',['../classBigTony_1_1Core_1_1SettingsParser.html#aab60d3a4e7fb29e0d699efa0aa1358ee',1,'BigTony::Core::SettingsParser']]],
-  ['program_73',['Program',['../classBigTony_1_1Core_1_1Program.html',1,'BigTony::Core']]],
-  ['program_2ecs_74',['Program.cs',['../Program_8cs.html',1,'']]]
+  ['register_76',['Register',['../classBigTony_1_1Core_1_1BaseSystem.html#aa02d2d162ddfefa1fc33e84ea2012309',1,'BigTony::Core::BaseSystem']]],
+  ['run_77',['Run',['../classBigTony_1_1Examples_1_1ConfigCommand.html#a41b91632d02a541d1adab0ea7dce209f',1,'BigTony.Examples.ConfigCommand.Run()'],['../classBigTony_1_1Examples_1_1KillCommand.html#aa9f76c7160fc652533806e1a1d9f44f3',1,'BigTony.Examples.KillCommand.Run()'],['../classBigTony_1_1Core_1_1Command.html#afa360894d4093b01cd5b3117bbf58c58',1,'BigTony.Core.Command.Run()'],['../classBigTony_1_1Core_1_1Command.html#afa9f58c7f254c8da22b10b8e299bc069',1,'BigTony.Core.Command.Run(Span&lt; string &gt; args)']]],
+  ['runcommand_78',['RunCommand',['../classBigTony_1_1Core_1_1CommandParser.html#a78d673d9eb6e21fe9e5137b893c94628',1,'BigTony::Core::CommandParser']]]
 ];
