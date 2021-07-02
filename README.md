@@ -1,9 +1,9 @@
 # [Big Tony](https://amvc-gaming.github.io/big-tony/) - [![Tweet](https://img.shields.io/static/v1?label=&message=Tweet&color=black&logo=twitter)](https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2FAMVC-Gaming%2Fbig-tony&text=Check%20out%20Big%20Tony%2C%20it%27s%20an%20open-source%20and%20speedy%20multiplayer%20server%20library%20written%20in%20C%23.%20&hashtags=bigtony%2Ccsharp%2Cmultiplayer%2Cprogramming)
 
-![Documentation Status](https://img.shields.io/github/workflow/status/amvc-gaming/big-tony/Build,%20test%20and%20generate%20docs&style=for-the-badge)
+![Documentation Status](https://img.shields.io/github/workflow/status/amvc-gaming/big-tony/Build,%20test%20and%20generate%20docs?style=for-the-badge)
 ![GitHub repo size](https://img.shields.io/github/repo-size/amvc-gaming/big-tony?color=orange&style=for-the-badge)
 ![GitHub top language](https://img.shields.io/github/languages/top/amvc-gaming/big-tony?color=yellow&style=for-the-badge)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/y/amvc-gaming/big-tony&style=for-the-badge)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/y/amvc-gaming/big-tony?style=for-the-badge)
 ![GitHub contributors](https://img.shields.io/github/contributors/amvc-gaming/big-tony?color=purple&style=for-the-badge)
 ![GitHub issues](https://img.shields.io/github/issues/amvc-gaming/big-tony?color=red&style=for-the-badge)
 
