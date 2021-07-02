@@ -1,5 +1,8 @@
-using System.Threading;
+using System;
+using System.Reflection;
+using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace BigTony.Core
 {
@@ -7,45 +10,35 @@ namespace BigTony.Core
     public static class SystemManager
     {
 
-        public static List<Thread> threads = new List<Thread>();
+        public static ISystem[] systems;
 
-        public static void Start()
+        public static void FindSystems()
         {
 
-            foreach (Thread thread in threads)
+            Type parentType = typeof(ISystem);
+            Assembly assembly = Assembly.GetExecutingAssembly();
+            Type[] types = assembly.GetTypes();
+
+            IEnumerable<Type> subclasses = types.Where(t => t.IsSubclassOf(parentType));
+            List<ISystem> systemList = new List<ISystem>();
+
+            Console.Log("Systems Loading... ", false);
+
+            foreach (Type type in subclasses)
             {
 
-                thread.Start();
+                if (!type.ContainsGenericParameters)
+                {
+                    ISystem system = (ISystem)Activator.CreateInstance(type);
+                    systemList.Add(system);
+
+                }
 
             }
 
-        }
+            Console.Log("Done");
 
-        public static void Join()
-        {
-
-            foreach (Thread thread in threads)
-            {
-
-                thread.Join();
-
-            }
-
-        }
-
-        public static bool isRunning()
-        {
-
-            bool running = false;
-
-            foreach (Thread thread in threads)
-            {
-
-                running |= thread.IsAlive;
-
-            }
-
-            return running;
+            systems = systemList.ToArray<ISystem>();
 
         }
 

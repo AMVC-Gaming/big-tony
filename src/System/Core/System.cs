@@ -3,7 +3,7 @@ using System.Collections.Generic;
 namespace BigTony.Core
 {
 
-    public class BaseSystem<T> where T : struct
+    public class BaseSystem<T> : ISystem where T : struct
     {
 
         public static List<T> entities = new List<T>();

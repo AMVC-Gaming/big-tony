@@ -47,6 +47,7 @@ namespace BigTony.Core
 
             // Server Setup
             CommandParser.FindCommands();
+            SystemManager.FindSystems();
             SettingsParser.SetParams(args);
 
             // Check if the Developer Wants a UDP Server
@@ -121,6 +122,14 @@ namespace BigTony.Core
                         newsock.Send(commandOutput, commandOutput.Length, sender);
 
                         break;
+
+                }
+
+                // Code Past 3 is Unreserved
+                if (req[0] > 3)
+                {
+
+
 
                 }
 
