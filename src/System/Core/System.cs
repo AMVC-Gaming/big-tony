@@ -16,6 +16,7 @@ namespace BigTony.Core
         {
 
             entities.Add(entity);
+            OnRegister(entity);
 
         }
 
@@ -26,6 +27,7 @@ namespace BigTony.Core
         public void Unregister(T entity)
         {
 
+            OnUnregister(entity);
             entities.Remove(entity);
 
         }
@@ -117,7 +119,7 @@ namespace BigTony.Core
         /// <summary>
         /// This is run when a new entity is created.
         /// </summary>
-        public virtual void OnRegister()
+        public virtual void OnRegister(T entity)
         {
 
 
@@ -127,7 +129,7 @@ namespace BigTony.Core
         /// <summary>
         /// This is run when a new entity is created.
         /// </summary>
-        public virtual void OnUnregister()
+        public virtual void OnUnregister(T entity)
         {
 
 
