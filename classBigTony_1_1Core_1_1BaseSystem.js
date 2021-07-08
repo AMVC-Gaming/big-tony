@@ -2,8 +2,8 @@ var classBigTony_1_1Core_1_1BaseSystem =
 [
     [ "Bottom", "classBigTony_1_1Core_1_1BaseSystem.html#aa4ee31725824e0aff0b54f5fdc94a8a9", null ],
     [ "GetEntityCount", "classBigTony_1_1Core_1_1BaseSystem.html#a07fb42bcec14c9821b6aad7cbdd6169f", null ],
-    [ "OnRegister", "classBigTony_1_1Core_1_1BaseSystem.html#a7d59f7ba73c95cbfafc4acfa63ade5ee", null ],
-    [ "OnUnregister", "classBigTony_1_1Core_1_1BaseSystem.html#a62769e165e0b81e5229f206e1690cca7", null ],
+    [ "OnRegister", "classBigTony_1_1Core_1_1BaseSystem.html#a6f89e80b11317981b8b1fc18ae620b75", null ],
+    [ "OnUnregister", "classBigTony_1_1Core_1_1BaseSystem.html#a1baa455e219a489daec2c976d22dc7ba", null ],
     [ "OnUpdate", "classBigTony_1_1Core_1_1BaseSystem.html#a29dc3ec26459535f938b97cac4cf16e0", null ],
     [ "Pop", "classBigTony_1_1Core_1_1BaseSystem.html#ae77a3f874a73124ce113cec174cf01c6", null ],
     [ "Register", "classBigTony_1_1Core_1_1BaseSystem.html#aa02d2d162ddfefa1fc33e84ea2012309", null ],

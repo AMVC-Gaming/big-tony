@@ -144,12 +144,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a07fb42bcec14c9821b6aad7cbdd6169f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBigTony_1_1Core_1_1BaseSystem.html#a07fb42bcec14c9821b6aad7cbdd6169f">GetEntityCount</a> ()</td></tr>
 <tr class="memdesc:a07fb42bcec14c9821b6aad7cbdd6169f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of entities currently in the system.  <a href="classBigTony_1_1Core_1_1BaseSystem.html#a07fb42bcec14c9821b6aad7cbdd6169f">More...</a><br /></td></tr>
 <tr class="separator:a07fb42bcec14c9821b6aad7cbdd6169f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d59f7ba73c95cbfafc4acfa63ade5ee"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBigTony_1_1Core_1_1BaseSystem.html#a7d59f7ba73c95cbfafc4acfa63ade5ee">OnRegister</a> ()</td></tr>
-<tr class="memdesc:a7d59f7ba73c95cbfafc4acfa63ade5ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is run when a new entity is created.  <a href="classBigTony_1_1Core_1_1BaseSystem.html#a7d59f7ba73c95cbfafc4acfa63ade5ee">More...</a><br /></td></tr>
-<tr class="separator:a7d59f7ba73c95cbfafc4acfa63ade5ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a62769e165e0b81e5229f206e1690cca7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBigTony_1_1Core_1_1BaseSystem.html#a62769e165e0b81e5229f206e1690cca7">OnUnregister</a> ()</td></tr>
-<tr class="memdesc:a62769e165e0b81e5229f206e1690cca7"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is run when a new entity is created.  <a href="classBigTony_1_1Core_1_1BaseSystem.html#a62769e165e0b81e5229f206e1690cca7">More...</a><br /></td></tr>
-<tr class="separator:a62769e165e0b81e5229f206e1690cca7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f89e80b11317981b8b1fc18ae620b75"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBigTony_1_1Core_1_1BaseSystem.html#a6f89e80b11317981b8b1fc18ae620b75">OnRegister</a> (T entity)</td></tr>
+<tr class="memdesc:a6f89e80b11317981b8b1fc18ae620b75"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is run when a new entity is created.  <a href="classBigTony_1_1Core_1_1BaseSystem.html#a6f89e80b11317981b8b1fc18ae620b75">More...</a><br /></td></tr>
+<tr class="separator:a6f89e80b11317981b8b1fc18ae620b75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1baa455e219a489daec2c976d22dc7ba"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBigTony_1_1Core_1_1BaseSystem.html#a1baa455e219a489daec2c976d22dc7ba">OnUnregister</a> (T entity)</td></tr>
+<tr class="memdesc:a1baa455e219a489daec2c976d22dc7ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is run when a new entity is created.  <a href="classBigTony_1_1Core_1_1BaseSystem.html#a1baa455e219a489daec2c976d22dc7ba">More...</a><br /></td></tr>
+<tr class="separator:a1baa455e219a489daec2c976d22dc7ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a29dc3ec26459535f938b97cac4cf16e0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBigTony_1_1Core_1_1BaseSystem.html#a29dc3ec26459535f938b97cac4cf16e0">OnUpdate</a> ()</td></tr>
 <tr class="memdesc:a29dc3ec26459535f938b97cac4cf16e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is run every frame by the server.  <a href="classBigTony_1_1Core_1_1BaseSystem.html#a29dc3ec26459535f938b97cac4cf16e0">More...</a><br /></td></tr>
 <tr class="separator:a29dc3ec26459535f938b97cac4cf16e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -216,8 +216,8 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a7d59f7ba73c95cbfafc4acfa63ade5ee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7d59f7ba73c95cbfafc4acfa63ade5ee">&#9670;&nbsp;</a></span>OnRegister()</h2>
+<a id="a6f89e80b11317981b8b1fc18ae620b75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f89e80b11317981b8b1fc18ae620b75">&#9670;&nbsp;</a></span>OnRegister()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -228,7 +228,8 @@ Static Public Attributes</h2></td></tr>
         <tr>
           <td class="memname">virtual void <a class="el" href="classBigTony_1_1Core_1_1BaseSystem.html">BigTony.Core.BaseSystem</a>&lt; T &gt;.OnRegister </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>entity</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -243,8 +244,8 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a62769e165e0b81e5229f206e1690cca7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a62769e165e0b81e5229f206e1690cca7">&#9670;&nbsp;</a></span>OnUnregister()</h2>
+<a id="a1baa455e219a489daec2c976d22dc7ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1baa455e219a489daec2c976d22dc7ba">&#9670;&nbsp;</a></span>OnUnregister()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -255,7 +256,8 @@ Static Public Attributes</h2></td></tr>
         <tr>
           <td class="memname">virtual void <a class="el" href="classBigTony_1_1Core_1_1BaseSystem.html">BigTony.Core.BaseSystem</a>&lt; T &gt;.OnUnregister </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>entity</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
